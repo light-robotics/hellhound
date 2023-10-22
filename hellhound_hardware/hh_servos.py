@@ -275,7 +275,7 @@ if __name__ == '__main__':
     }
 
     hh_kin = HHKinematics()
-    hh_kin.move_forward(2, 6)
+    hh_kin.move_forward(2, 5)
     print(hh_kin.sequence)
 
     for item in hh_kin.sequence:

@@ -3982,3 +3982,1216 @@
 [2023-10-22 21:42:36,407][INFO] Angle  leg4_beta. Diff:  0.89. Current: 120.0. Target: 120.89.
 [2023-10-22 21:42:36,407][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
 [2023-10-22 21:42:36,408][INFO] Diff. Sum: 11.30. Max: 6.41
+[2023-10-22 21:49:32,447][INFO] [Init] Initiating leg 1
+[2023-10-22 21:49:32,449][INFO] [Init] Initiating leg 2
+[2023-10-22 21:49:32,451][INFO] [Init] Initiating leg 3
+[2023-10-22 21:49:32,453][INFO] [Init] Initiating leg 4
+[2023-10-22 21:49:32,455][INFO] [Init] Initialization successful
+[2023-10-22 21:49:32,455][INFO] Move. Leg 1 for [-8, 0, -2]
+[2023-10-22 21:49:32,456][INFO] Move. Leg 3 for [-8, 0, -2]
+[2023-10-22 21:49:32,456][INFO] Move. Leg 1 for [0, 0, 2]
+[2023-10-22 21:49:32,456][INFO] Move. Leg 3 for [0, 0, 2]
+[2023-10-22 21:49:32,456][INFO] Body movement [-4.0, 0, 0]
+[2023-10-22 21:49:32,456][INFO] Moving mount point for 1 : [-4.0, 0, 0]
+[2023-10-22 21:49:32,456][INFO] Moving mount point for 2 : [-4.0, 0, 0]
+[2023-10-22 21:49:32,457][INFO] Moving mount point for 3 : [-4.0, 0, 0]
+[2023-10-22 21:49:32,457][INFO] Moving mount point for 4 : [-4.0, 0, 0]
+[2023-10-22 21:49:32,457][INFO] Move. Leg 2 for [-8, 0, -2]
+[2023-10-22 21:49:32,457][INFO] Move. Leg 4 for [-8, 0, -2]
+[2023-10-22 21:49:32,457][INFO] Move. Leg 2 for [0, 0, 2]
+[2023-10-22 21:49:32,457][INFO] Move. Leg 4 for [0, 0, 2]
+[2023-10-22 21:49:32,458][INFO] Body movement [-4.0, 0, 0]
+[2023-10-22 21:49:32,458][INFO] Moving mount point for 1 : [-4.0, 0, 0]
+[2023-10-22 21:49:32,458][INFO] Moving mount point for 2 : [-4.0, 0, 0]
+[2023-10-22 21:49:32,458][INFO] Moving mount point for 3 : [-4.0, 0, 0]
+[2023-10-22 21:49:32,458][INFO] Moving mount point for 4 : [-4.0, 0, 0]
+[2023-10-22 21:49:32,485][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:49:32,488][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:49:32,491][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:49:32,508][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:49:32,511][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:49:32,514][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:49:32,523][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:32,526][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:32,529][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:32,674][INFO] Angle leg1_alpha. Diff:  0.63. Current: 62.88. Target: 63.51.
+[2023-10-22 21:49:32,675][INFO] Angle  leg1_beta. Diff:  1.61. Current: 117.6. Target: 119.21.
+[2023-10-22 21:49:32,675][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:32,675][INFO] Angle leg2_alpha. Diff:  0.39. Current: 63.12. Target: 63.51.
+[2023-10-22 21:49:32,675][INFO] Angle  leg2_beta. Diff: -0.07. Current: 119.28. Target: 119.21.
+[2023-10-22 21:49:32,676][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:32,676][INFO] Angle leg3_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:49:32,676][INFO] Angle  leg3_beta. Diff:  6.89. Current: 114.0. Target: 120.89.
+[2023-10-22 21:49:32,676][INFO] Angle leg3_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:32,677][INFO] Angle leg4_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:49:32,677][INFO] Angle  leg4_beta. Diff:  1.13. Current: 119.76. Target: 120.89.
+[2023-10-22 21:49:32,677][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:32,677][INFO] Diff. Sum: 11.98. Max: 6.89
+[2023-10-22 21:49:32,729][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:32,732][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:32,736][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:33,369][INFO] Angle leg1_alpha. Diff: -0.46. Current: 86.4. Target: 85.94.
+[2023-10-22 21:49:33,369][INFO] Angle  leg1_beta. Diff: -0.60. Current: 100.56. Target: 99.96.
+[2023-10-22 21:49:33,369][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:33,370][INFO] Angle leg2_alpha. Diff: -0.57. Current: 64.08. Target: 63.51.
+[2023-10-22 21:49:33,370][INFO] Angle  leg2_beta. Diff: -0.07. Current: 119.28. Target: 119.21.
+[2023-10-22 21:49:33,370][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:33,370][INFO] Angle leg3_alpha. Diff:  0.02. Current: 87.36. Target: 87.38.
+[2023-10-22 21:49:33,370][INFO] Angle  leg3_beta. Diff:  0.23. Current: 77.76. Target: 77.99.
+[2023-10-22 21:49:33,370][INFO] Angle leg3_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:33,370][INFO] Angle leg4_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:49:33,370][INFO] Angle  leg4_beta. Diff:  0.89. Current: 120.0. Target: 120.89.
+[2023-10-22 21:49:33,370][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:33,371][INFO] Diff. Sum: 4.55. Max: 0.89
+[2023-10-22 21:49:33,422][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:33,425][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:33,428][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:33,694][INFO] Angle leg1_alpha. Diff:  0.21. Current: 100.32. Target: 100.53.
+[2023-10-22 21:49:33,694][INFO] Angle  leg1_beta. Diff:  0.24. Current: 113.76. Target: 114.0.
+[2023-10-22 21:49:33,695][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:33,695][INFO] Angle leg2_alpha. Diff: -0.57. Current: 64.08. Target: 63.51.
+[2023-10-22 21:49:33,695][INFO] Angle  leg2_beta. Diff: -0.07. Current: 119.28. Target: 119.21.
+[2023-10-22 21:49:33,695][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:33,695][INFO] Angle leg3_alpha. Diff: -0.16. Current: 101.76. Target: 101.6.
+[2023-10-22 21:49:33,695][INFO] Angle  leg3_beta. Diff: -0.21. Current: 91.68. Target: 91.47.
+[2023-10-22 21:49:33,695][INFO] Angle leg3_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:33,695][INFO] Angle leg4_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:49:33,695][INFO] Angle  leg4_beta. Diff:  0.41. Current: 120.48. Target: 120.89.
+[2023-10-22 21:49:33,696][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:33,696][INFO] Diff. Sum: 3.58. Max: 0.57
+[2023-10-22 21:49:33,722][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:33,725][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:33,728][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:33,753][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:33,757][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:33,760][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:34,266][INFO] Angle leg1_alpha. Diff:  0.40. Current: 86.88. Target: 87.28.
+[2023-10-22 21:49:34,267][INFO] Angle  leg1_beta. Diff:  4.79. Current: 117.12. Target: 121.91.
+[2023-10-22 21:49:34,268][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:34,269][INFO] Angle leg2_alpha. Diff: -0.09. Current: 35.52. Target: 35.43.
+[2023-10-22 21:49:34,269][INFO] Angle  leg2_beta. Diff: -0.74. Current: 107.28. Target: 106.54.
+[2023-10-22 21:49:34,270][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:34,271][INFO] Angle leg3_alpha. Diff:  0.48. Current: 101.52. Target: 102.0.
+[2023-10-22 21:49:34,271][INFO] Angle  leg3_beta. Diff: -0.34. Current: 110.88. Target: 110.54.
+[2023-10-22 21:49:34,272][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:49:34,273][INFO] Angle leg4_alpha. Diff:  0.55. Current: 69.6. Target: 70.15.
+[2023-10-22 21:49:34,273][INFO] Angle  leg4_beta. Diff:  0.89. Current: 120.0. Target: 120.89.
+[2023-10-22 21:49:34,274][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:34,275][INFO] Diff. Sum: 9.48. Max: 4.79
+[2023-10-22 21:49:34,303][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:34,307][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:34,310][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:35,016][INFO] Angle leg1_alpha. Diff:  0.64. Current: 86.64. Target: 87.28.
+[2023-10-22 21:49:35,017][INFO] Angle  leg1_beta. Diff:  4.55. Current: 117.36. Target: 121.91.
+[2023-10-22 21:49:35,018][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:35,019][INFO] Angle leg2_alpha. Diff:  0.25. Current: 73.92. Target: 74.17.
+[2023-10-22 21:49:35,020][INFO] Angle  leg2_beta. Diff: -0.85. Current: 108.0. Target: 107.15.
+[2023-10-22 21:49:35,021][INFO] Angle leg2_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:49:35,021][INFO] Angle leg3_alpha. Diff:  0.00. Current: 102.0. Target: 102.0.
+[2023-10-22 21:49:35,022][INFO] Angle  leg3_beta. Diff:  0.86. Current: 109.68. Target: 110.54.
+[2023-10-22 21:49:35,023][INFO] Angle leg3_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:35,023][INFO] Angle leg4_alpha. Diff:  1.00. Current: 86.4. Target: 87.4.
+[2023-10-22 21:49:35,024][INFO] Angle  leg4_beta. Diff: -1.92. Current: 98.64. Target: 96.72.
+[2023-10-22 21:49:35,024][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:35,025][INFO] Diff. Sum: 11.27. Max: 4.55
+[2023-10-22 21:49:35,054][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:35,057][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:35,061][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:35,376][INFO] Angle leg1_alpha. Diff: -0.56. Current: 87.84. Target: 87.28.
+[2023-10-22 21:49:35,377][INFO] Angle  leg1_beta. Diff:  4.31. Current: 117.6. Target: 121.91.
+[2023-10-22 21:49:35,378][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:35,378][INFO] Angle leg2_alpha. Diff:  0.40. Current: 86.88. Target: 87.28.
+[2023-10-22 21:49:35,379][INFO] Angle  leg2_beta. Diff: -0.01. Current: 121.92. Target: 121.91.
+[2023-10-22 21:49:35,380][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:35,380][INFO] Angle leg3_alpha. Diff:  0.24. Current: 101.76. Target: 102.0.
+[2023-10-22 21:49:35,381][INFO] Angle  leg3_beta. Diff:  0.14. Current: 110.4. Target: 110.54.
+[2023-10-22 21:49:35,381][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:49:35,382][INFO] Angle leg4_alpha. Diff: -0.24. Current: 102.24. Target: 102.0.
+[2023-10-22 21:49:35,383][INFO] Angle  leg4_beta. Diff:  0.38. Current: 110.16. Target: 110.54.
+[2023-10-22 21:49:35,383][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:35,384][INFO] Diff. Sum: 7.72. Max: 4.31
+[2023-10-22 21:49:35,413][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:49:35,416][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:49:35,420][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:49:35,438][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:49:35,442][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:49:35,446][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:49:35,455][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:35,459][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:35,463][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:35,897][INFO] Angle leg1_alpha. Diff:  0.39. Current: 63.12. Target: 63.51.
+[2023-10-22 21:49:35,898][INFO] Angle  leg1_beta. Diff:  1.61. Current: 117.6. Target: 119.21.
+[2023-10-22 21:49:35,899][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:35,899][INFO] Angle leg2_alpha. Diff:  0.15. Current: 63.36. Target: 63.51.
+[2023-10-22 21:49:35,900][INFO] Angle  leg2_beta. Diff: -0.07. Current: 119.28. Target: 119.21.
+[2023-10-22 21:49:35,901][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:35,901][INFO] Angle leg3_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:49:35,902][INFO] Angle  leg3_beta. Diff:  5.93. Current: 114.96. Target: 120.89.
+[2023-10-22 21:49:35,902][INFO] Angle leg3_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:35,903][INFO] Angle leg4_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:49:35,904][INFO] Angle  leg4_beta. Diff:  0.65. Current: 120.24. Target: 120.89.
+[2023-10-22 21:49:35,904][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:35,905][INFO] Diff. Sum: 10.30. Max: 5.93
+[2023-10-22 21:49:48,241][INFO] [Init] Initiating leg 1
+[2023-10-22 21:49:48,243][INFO] [Init] Initiating leg 2
+[2023-10-22 21:49:48,246][INFO] [Init] Initiating leg 3
+[2023-10-22 21:49:48,248][INFO] [Init] Initiating leg 4
+[2023-10-22 21:49:48,250][INFO] [Init] Initialization successful
+[2023-10-22 21:49:48,250][INFO] Move. Leg 1 for [-8, 0, -2]
+[2023-10-22 21:49:48,251][INFO] Move. Leg 3 for [-8, 0, -2]
+[2023-10-22 21:49:48,251][INFO] Move. Leg 1 for [0, 0, 2]
+[2023-10-22 21:49:48,251][INFO] Move. Leg 3 for [0, 0, 2]
+[2023-10-22 21:49:48,252][INFO] Body movement [-4.0, 0, 0]
+[2023-10-22 21:49:48,252][INFO] Moving mount point for 1 : [-4.0, 0, 0]
+[2023-10-22 21:49:48,252][INFO] Moving mount point for 2 : [-4.0, 0, 0]
+[2023-10-22 21:49:48,252][INFO] Moving mount point for 3 : [-4.0, 0, 0]
+[2023-10-22 21:49:48,253][INFO] Moving mount point for 4 : [-4.0, 0, 0]
+[2023-10-22 21:49:48,253][INFO] Move. Leg 2 for [-8, 0, -2]
+[2023-10-22 21:49:48,253][INFO] Move. Leg 4 for [-8, 0, -2]
+[2023-10-22 21:49:48,254][INFO] Move. Leg 2 for [0, 0, 2]
+[2023-10-22 21:49:48,254][INFO] Move. Leg 4 for [0, 0, 2]
+[2023-10-22 21:49:48,254][INFO] Body movement [-4.0, 0, 0]
+[2023-10-22 21:49:48,254][INFO] Moving mount point for 1 : [-4.0, 0, 0]
+[2023-10-22 21:49:48,255][INFO] Moving mount point for 2 : [-4.0, 0, 0]
+[2023-10-22 21:49:48,255][INFO] Moving mount point for 3 : [-4.0, 0, 0]
+[2023-10-22 21:49:48,255][INFO] Moving mount point for 4 : [-4.0, 0, 0]
+[2023-10-22 21:49:48,282][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:49:48,285][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:49:48,288][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:49:48,306][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:49:48,309][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:49:48,312][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:49:48,321][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:48,324][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:48,328][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:48,464][INFO] Angle leg1_alpha. Diff:  0.15. Current: 63.36. Target: 63.51.
+[2023-10-22 21:49:48,464][INFO] Angle  leg1_beta. Diff:  1.61. Current: 117.6. Target: 119.21.
+[2023-10-22 21:49:48,465][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:48,465][INFO] Angle leg2_alpha. Diff:  0.39. Current: 63.12. Target: 63.51.
+[2023-10-22 21:49:48,465][INFO] Angle  leg2_beta. Diff: -0.31. Current: 119.52. Target: 119.21.
+[2023-10-22 21:49:48,466][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:48,466][INFO] Angle leg3_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:49:48,466][INFO] Angle  leg3_beta. Diff:  6.17. Current: 114.72. Target: 120.89.
+[2023-10-22 21:49:48,467][INFO] Angle leg3_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:49:48,467][INFO] Angle leg4_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:49:48,467][INFO] Angle  leg4_beta. Diff:  0.89. Current: 120.0. Target: 120.89.
+[2023-10-22 21:49:48,467][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:48,468][INFO] Diff. Sum: 10.54. Max: 6.17
+[2023-10-22 21:49:48,519][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:48,523][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:48,526][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:49,169][INFO] Angle leg1_alpha. Diff: -0.22. Current: 86.16. Target: 85.94.
+[2023-10-22 21:49:49,169][INFO] Angle  leg1_beta. Diff: -0.60. Current: 100.56. Target: 99.96.
+[2023-10-22 21:49:49,170][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:49,170][INFO] Angle leg2_alpha. Diff: -0.81. Current: 64.32. Target: 63.51.
+[2023-10-22 21:49:49,170][INFO] Angle  leg2_beta. Diff: -0.07. Current: 119.28. Target: 119.21.
+[2023-10-22 21:49:49,170][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:49,170][INFO] Angle leg3_alpha. Diff: -0.46. Current: 87.84. Target: 87.38.
+[2023-10-22 21:49:49,170][INFO] Angle  leg3_beta. Diff:  0.47. Current: 77.52. Target: 77.99.
+[2023-10-22 21:49:49,170][INFO] Angle leg3_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:49:49,170][INFO] Angle leg4_alpha. Diff:  0.51. Current: 91.2. Target: 91.71.
+[2023-10-22 21:49:49,171][INFO] Angle  leg4_beta. Diff:  1.13. Current: 119.76. Target: 120.89.
+[2023-10-22 21:49:49,171][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:49,171][INFO] Diff. Sum: 5.47. Max: 1.13
+[2023-10-22 21:49:49,222][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:49,226][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:49,229][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:49,493][INFO] Angle leg1_alpha. Diff: -0.03. Current: 100.56. Target: 100.53.
+[2023-10-22 21:49:49,494][INFO] Angle  leg1_beta. Diff:  0.00. Current: 114.0. Target: 114.0.
+[2023-10-22 21:49:49,494][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:49,494][INFO] Angle leg2_alpha. Diff: -0.33. Current: 63.84. Target: 63.51.
+[2023-10-22 21:49:49,494][INFO] Angle  leg2_beta. Diff: -0.07. Current: 119.28. Target: 119.21.
+[2023-10-22 21:49:49,494][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:49,494][INFO] Angle leg3_alpha. Diff: -0.16. Current: 101.76. Target: 101.6.
+[2023-10-22 21:49:49,494][INFO] Angle  leg3_beta. Diff:  0.03. Current: 91.44. Target: 91.47.
+[2023-10-22 21:49:49,495][INFO] Angle leg3_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:49,495][INFO] Angle leg4_alpha. Diff:  0.51. Current: 91.2. Target: 91.71.
+[2023-10-22 21:49:49,495][INFO] Angle  leg4_beta. Diff:  0.65. Current: 120.24. Target: 120.89.
+[2023-10-22 21:49:49,495][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:49,495][INFO] Diff. Sum: 3.46. Max: 0.65
+[2023-10-22 21:49:49,521][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:49,524][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:49,527][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:49,553][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:49,556][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:49,559][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:50,065][INFO] Angle leg1_alpha. Diff:  0.40. Current: 86.88. Target: 87.28.
+[2023-10-22 21:49:50,066][INFO] Angle  leg1_beta. Diff:  4.55. Current: 117.36. Target: 121.91.
+[2023-10-22 21:49:50,067][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:50,067][INFO] Angle leg2_alpha. Diff:  0.15. Current: 35.28. Target: 35.43.
+[2023-10-22 21:49:50,068][INFO] Angle  leg2_beta. Diff: -0.74. Current: 107.28. Target: 106.54.
+[2023-10-22 21:49:50,069][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:50,069][INFO] Angle leg3_alpha. Diff:  0.72. Current: 101.28. Target: 102.0.
+[2023-10-22 21:49:50,070][INFO] Angle  leg3_beta. Diff: -0.34. Current: 110.88. Target: 110.54.
+[2023-10-22 21:49:50,070][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:49:50,071][INFO] Angle leg4_alpha. Diff:  0.55. Current: 69.6. Target: 70.15.
+[2023-10-22 21:49:50,072][INFO] Angle  leg4_beta. Diff:  0.89. Current: 120.0. Target: 120.89.
+[2023-10-22 21:49:50,072][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:50,073][INFO] Diff. Sum: 9.54. Max: 4.55
+[2023-10-22 21:49:50,102][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:50,105][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:50,109][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:50,812][INFO] Angle leg1_alpha. Diff:  0.64. Current: 86.64. Target: 87.28.
+[2023-10-22 21:49:50,813][INFO] Angle  leg1_beta. Diff:  4.31. Current: 117.6. Target: 121.91.
+[2023-10-22 21:49:50,814][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:50,815][INFO] Angle leg2_alpha. Diff:  0.25. Current: 73.92. Target: 74.17.
+[2023-10-22 21:49:50,815][INFO] Angle  leg2_beta. Diff: -1.09. Current: 108.24. Target: 107.15.
+[2023-10-22 21:49:50,816][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:50,816][INFO] Angle leg3_alpha. Diff:  0.24. Current: 101.76. Target: 102.0.
+[2023-10-22 21:49:50,817][INFO] Angle  leg3_beta. Diff:  0.86. Current: 109.68. Target: 110.54.
+[2023-10-22 21:49:50,818][INFO] Angle leg3_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:50,818][INFO] Angle leg4_alpha. Diff:  0.04. Current: 87.36. Target: 87.4.
+[2023-10-22 21:49:50,819][INFO] Angle  leg4_beta. Diff: -1.92. Current: 98.64. Target: 96.72.
+[2023-10-22 21:49:50,820][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:50,820][INFO] Diff. Sum: 10.55. Max: 4.31
+[2023-10-22 21:49:50,849][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:50,853][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:50,857][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:49:51,156][INFO] Angle leg1_alpha. Diff: -0.56. Current: 87.84. Target: 87.28.
+[2023-10-22 21:49:51,157][INFO] Angle  leg1_beta. Diff:  4.31. Current: 117.6. Target: 121.91.
+[2023-10-22 21:49:51,157][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:51,158][INFO] Angle leg2_alpha. Diff:  0.64. Current: 86.64. Target: 87.28.
+[2023-10-22 21:49:51,159][INFO] Angle  leg2_beta. Diff:  0.23. Current: 121.68. Target: 121.91.
+[2023-10-22 21:49:51,159][INFO] Angle leg2_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:51,160][INFO] Angle leg3_alpha. Diff:  0.24. Current: 101.76. Target: 102.0.
+[2023-10-22 21:49:51,160][INFO] Angle  leg3_beta. Diff: -0.10. Current: 110.64. Target: 110.54.
+[2023-10-22 21:49:51,161][INFO] Angle leg3_tetta. Diff: -0.48. Current: 0.48. Target: 0.0.
+[2023-10-22 21:49:51,162][INFO] Angle leg4_alpha. Diff:  0.00. Current: 102.0. Target: 102.0.
+[2023-10-22 21:49:51,162][INFO] Angle  leg4_beta. Diff:  1.10. Current: 109.44. Target: 110.54.
+[2023-10-22 21:49:51,163][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:51,164][INFO] Diff. Sum: 8.86. Max: 4.31
+[2023-10-22 21:49:51,193][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:49:51,196][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:49:51,200][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:49:51,218][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:49:51,222][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:49:51,225][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:49:51,235][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:51,238][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:51,242][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:49:51,679][INFO] Angle leg1_alpha. Diff:  0.39. Current: 63.12. Target: 63.51.
+[2023-10-22 21:49:51,680][INFO] Angle  leg1_beta. Diff:  1.61. Current: 117.6. Target: 119.21.
+[2023-10-22 21:49:51,681][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:49:51,681][INFO] Angle leg2_alpha. Diff:  0.39. Current: 63.12. Target: 63.51.
+[2023-10-22 21:49:51,682][INFO] Angle  leg2_beta. Diff:  0.17. Current: 119.04. Target: 119.21.
+[2023-10-22 21:49:51,683][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:51,683][INFO] Angle leg3_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:49:51,684][INFO] Angle  leg3_beta. Diff:  5.93. Current: 114.96. Target: 120.89.
+[2023-10-22 21:49:51,685][INFO] Angle leg3_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:51,685][INFO] Angle leg4_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:49:51,686][INFO] Angle  leg4_beta. Diff:  0.89. Current: 120.0. Target: 120.89.
+[2023-10-22 21:49:51,686][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:49:51,687][INFO] Diff. Sum: 10.88. Max: 5.93
+[2023-10-22 21:51:22,454][INFO] [Init] Initiating leg 1
+[2023-10-22 21:51:22,457][INFO] [Init] Initiating leg 2
+[2023-10-22 21:51:22,459][INFO] [Init] Initiating leg 3
+[2023-10-22 21:51:22,461][INFO] [Init] Initiating leg 4
+[2023-10-22 21:51:22,463][INFO] [Init] Initialization successful
+[2023-10-22 21:51:22,463][INFO] Move. Leg 1 for [-8, 0, -2]
+[2023-10-22 21:51:22,464][INFO] Move. Leg 3 for [-8, 0, -2]
+[2023-10-22 21:51:22,464][INFO] Move. Leg 1 for [0, 0, 2]
+[2023-10-22 21:51:22,464][INFO] Move. Leg 3 for [0, 0, 2]
+[2023-10-22 21:51:22,465][INFO] Body movement [-4.0, 0, 0]
+[2023-10-22 21:51:22,465][INFO] Moving mount point for 1 : [-4.0, 0, 0]
+[2023-10-22 21:51:22,465][INFO] Moving mount point for 2 : [-4.0, 0, 0]
+[2023-10-22 21:51:22,465][INFO] Moving mount point for 3 : [-4.0, 0, 0]
+[2023-10-22 21:51:22,466][INFO] Moving mount point for 4 : [-4.0, 0, 0]
+[2023-10-22 21:51:22,466][INFO] Move. Leg 2 for [-16, 0, -2]
+[2023-10-22 21:51:22,466][INFO] Move. Leg 4 for [-16, 0, -2]
+[2023-10-22 21:51:22,467][INFO] Move. Leg 2 for [0, 0, 2]
+[2023-10-22 21:51:22,467][INFO] Move. Leg 4 for [0, 0, 2]
+[2023-10-22 21:51:22,467][INFO] Body movement [-8, 0, 0]
+[2023-10-22 21:51:22,467][INFO] Moving mount point for 1 : [-8, 0, 0]
+[2023-10-22 21:51:22,468][INFO] Moving mount point for 2 : [-8, 0, 0]
+[2023-10-22 21:51:22,468][INFO] Moving mount point for 3 : [-8, 0, 0]
+[2023-10-22 21:51:22,468][INFO] Moving mount point for 4 : [-8, 0, 0]
+[2023-10-22 21:51:22,469][INFO] Move. Leg 1 for [-8, 0, -2]
+[2023-10-22 21:51:22,469][INFO] Move. Leg 3 for [-8, 0, -2]
+[2023-10-22 21:51:22,469][INFO] Move. Leg 1 for [0, 0, 2]
+[2023-10-22 21:51:22,469][INFO] Move. Leg 3 for [0, 0, 2]
+[2023-10-22 21:51:22,470][INFO] Body movement [-4.0, 0, 0]
+[2023-10-22 21:51:22,470][INFO] Moving mount point for 1 : [-4.0, 0, 0]
+[2023-10-22 21:51:22,470][INFO] Moving mount point for 2 : [-4.0, 0, 0]
+[2023-10-22 21:51:22,471][INFO] Moving mount point for 3 : [-4.0, 0, 0]
+[2023-10-22 21:51:22,471][INFO] Moving mount point for 4 : [-4.0, 0, 0]
+[2023-10-22 21:51:22,572][INFO] Can not read values from servo 3. Attempt 0. 
+Exception : unpack requires a buffer of 8 bytes
+[2023-10-22 21:51:22,673][INFO] Can not read values from servo 3. Attempt 1. 
+Exception : unpack requires a buffer of 8 bytes
+[2023-10-22 21:51:22,774][INFO] Can not read values from servo 3. Attempt 2. 
+Exception : unpack requires a buffer of 8 bytes
+[2023-10-22 21:51:22,876][INFO] Can not read values from servo 3. Attempt 3. 
+Exception : unpack requires a buffer of 8 bytes
+[2023-10-22 21:51:22,977][INFO] Can not read values from servo 3. Attempt 4. 
+Exception : unpack requires a buffer of 8 bytes
+[2023-10-22 21:51:23,078][INFO] Can not read values from servo 3. Attempt 5. 
+Exception : unpack requires a buffer of 8 bytes
+[2023-10-22 21:51:23,180][INFO] Can not read values from servo 3. Attempt 6. 
+Exception : unpack requires a buffer of 8 bytes
+[2023-10-22 21:51:23,283][INFO] Can not read values from servo 3. Attempt 7. 
+Exception : unpack requires a buffer of 8 bytes
+[2023-10-22 21:51:23,384][INFO] Can not read values from servo 3. Attempt 8. 
+Exception : unpack requires a buffer of 8 bytes
+[2023-10-22 21:51:23,485][INFO] Can not read values from servo 3. Attempt 9. 
+Exception : unpack requires a buffer of 8 bytes
+[2023-10-22 21:51:28,394][INFO] [Init] Initiating leg 1
+[2023-10-22 21:51:28,397][INFO] [Init] Initiating leg 2
+[2023-10-22 21:51:28,399][INFO] [Init] Initiating leg 3
+[2023-10-22 21:51:28,401][INFO] [Init] Initiating leg 4
+[2023-10-22 21:51:28,403][INFO] [Init] Initialization successful
+[2023-10-22 21:51:28,404][INFO] Move. Leg 1 for [-8, 0, -2]
+[2023-10-22 21:51:28,404][INFO] Move. Leg 3 for [-8, 0, -2]
+[2023-10-22 21:51:28,404][INFO] Move. Leg 1 for [0, 0, 2]
+[2023-10-22 21:51:28,404][INFO] Move. Leg 3 for [0, 0, 2]
+[2023-10-22 21:51:28,405][INFO] Body movement [-4.0, 0, 0]
+[2023-10-22 21:51:28,405][INFO] Moving mount point for 1 : [-4.0, 0, 0]
+[2023-10-22 21:51:28,405][INFO] Moving mount point for 2 : [-4.0, 0, 0]
+[2023-10-22 21:51:28,406][INFO] Moving mount point for 3 : [-4.0, 0, 0]
+[2023-10-22 21:51:28,406][INFO] Moving mount point for 4 : [-4.0, 0, 0]
+[2023-10-22 21:51:28,406][INFO] Move. Leg 2 for [-16, 0, -2]
+[2023-10-22 21:51:28,407][INFO] Move. Leg 4 for [-16, 0, -2]
+[2023-10-22 21:51:28,407][INFO] Move. Leg 2 for [0, 0, 2]
+[2023-10-22 21:51:28,407][INFO] Move. Leg 4 for [0, 0, 2]
+[2023-10-22 21:51:28,407][INFO] Body movement [-8, 0, 0]
+[2023-10-22 21:51:28,408][INFO] Moving mount point for 1 : [-8, 0, 0]
+[2023-10-22 21:51:28,408][INFO] Moving mount point for 2 : [-8, 0, 0]
+[2023-10-22 21:51:28,408][INFO] Moving mount point for 3 : [-8, 0, 0]
+[2023-10-22 21:51:28,409][INFO] Moving mount point for 4 : [-8, 0, 0]
+[2023-10-22 21:51:28,409][INFO] Move. Leg 1 for [-8, 0, -2]
+[2023-10-22 21:51:28,409][INFO] Move. Leg 3 for [-8, 0, -2]
+[2023-10-22 21:51:28,409][INFO] Move. Leg 1 for [0, 0, 2]
+[2023-10-22 21:51:28,410][INFO] Move. Leg 3 for [0, 0, 2]
+[2023-10-22 21:51:28,410][INFO] Body movement [-4.0, 0, 0]
+[2023-10-22 21:51:28,410][INFO] Moving mount point for 1 : [-4.0, 0, 0]
+[2023-10-22 21:51:28,410][INFO] Moving mount point for 2 : [-4.0, 0, 0]
+[2023-10-22 21:51:28,411][INFO] Moving mount point for 3 : [-4.0, 0, 0]
+[2023-10-22 21:51:28,411][INFO] Moving mount point for 4 : [-4.0, 0, 0]
+[2023-10-22 21:51:28,437][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:28,441][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:28,444][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:28,461][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:28,464][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:28,468][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:28,477][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:28,480][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:28,483][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:28,626][INFO] Angle leg1_alpha. Diff:  0.63. Current: 62.88. Target: 63.51.
+[2023-10-22 21:51:28,626][INFO] Angle  leg1_beta. Diff:  1.61. Current: 117.6. Target: 119.21.
+[2023-10-22 21:51:28,626][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:28,627][INFO] Angle leg2_alpha. Diff:  0.63. Current: 62.88. Target: 63.51.
+[2023-10-22 21:51:28,627][INFO] Angle  leg2_beta. Diff: -0.31. Current: 119.52. Target: 119.21.
+[2023-10-22 21:51:28,627][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:28,627][INFO] Angle leg3_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:51:28,628][INFO] Angle  leg3_beta. Diff:  3.05. Current: 117.84. Target: 120.89.
+[2023-10-22 21:51:28,628][INFO] Angle leg3_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:28,628][INFO] Angle leg4_alpha. Diff:  0.51. Current: 91.2. Target: 91.71.
+[2023-10-22 21:51:28,629][INFO] Angle  leg4_beta. Diff:  0.65. Current: 120.24. Target: 120.89.
+[2023-10-22 21:51:28,629][INFO] Angle leg4_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:51:28,629][INFO] Diff. Sum: 8.62. Max: 3.05
+[2023-10-22 21:51:28,681][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:28,684][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:28,687][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:29,367][INFO] Angle leg1_alpha. Diff: -0.46. Current: 86.4. Target: 85.94.
+[2023-10-22 21:51:29,368][INFO] Angle  leg1_beta. Diff:  0.36. Current: 99.6. Target: 99.96.
+[2023-10-22 21:51:29,368][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:29,368][INFO] Angle leg2_alpha. Diff: -0.09. Current: 63.6. Target: 63.51.
+[2023-10-22 21:51:29,369][INFO] Angle  leg2_beta. Diff: -0.31. Current: 119.52. Target: 119.21.
+[2023-10-22 21:51:29,369][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:29,369][INFO] Angle leg3_alpha. Diff: -0.46. Current: 87.84. Target: 87.38.
+[2023-10-22 21:51:29,370][INFO] Angle  leg3_beta. Diff:  0.47. Current: 77.52. Target: 77.99.
+[2023-10-22 21:51:29,370][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:51:29,370][INFO] Angle leg4_alpha. Diff:  0.51. Current: 91.2. Target: 91.71.
+[2023-10-22 21:51:29,371][INFO] Angle  leg4_beta. Diff:  1.37. Current: 119.52. Target: 120.89.
+[2023-10-22 21:51:29,371][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:29,371][INFO] Diff. Sum: 5.47. Max: 1.37
+[2023-10-22 21:51:29,426][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:29,430][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:29,433][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:29,705][INFO] Angle leg1_alpha. Diff:  0.21. Current: 100.32. Target: 100.53.
+[2023-10-22 21:51:29,705][INFO] Angle  leg1_beta. Diff:  0.24. Current: 113.76. Target: 114.0.
+[2023-10-22 21:51:29,706][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:29,706][INFO] Angle leg2_alpha. Diff: -0.57. Current: 64.08. Target: 63.51.
+[2023-10-22 21:51:29,706][INFO] Angle  leg2_beta. Diff: -0.55. Current: 119.76. Target: 119.21.
+[2023-10-22 21:51:29,707][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:29,707][INFO] Angle leg3_alpha. Diff: -0.16. Current: 101.76. Target: 101.6.
+[2023-10-22 21:51:29,707][INFO] Angle  leg3_beta. Diff:  0.03. Current: 91.44. Target: 91.47.
+[2023-10-22 21:51:29,708][INFO] Angle leg3_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:51:29,708][INFO] Angle leg4_alpha. Diff:  0.51. Current: 91.2. Target: 91.71.
+[2023-10-22 21:51:29,708][INFO] Angle  leg4_beta. Diff:  0.89. Current: 120.0. Target: 120.89.
+[2023-10-22 21:51:29,709][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:29,709][INFO] Diff. Sum: 4.36. Max: 0.89
+[2023-10-22 21:51:29,738][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:51:29,741][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:51:29,744][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:51:29,771][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:29,775][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:29,778][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:30,280][INFO] Angle leg1_alpha. Diff: -0.56. Current: 87.84. Target: 87.28.
+[2023-10-22 21:51:30,280][INFO] Angle  leg1_beta. Diff:  4.55. Current: 117.36. Target: 121.91.
+[2023-10-22 21:51:30,281][INFO] Angle leg1_tetta. Diff:  0.72. Current: -0.72. Target: 0.0.
+[2023-10-22 21:51:30,281][INFO] Angle leg2_alpha. Diff:  0.63. Current: 34.8. Target: 35.43.
+[2023-10-22 21:51:30,281][INFO] Angle  leg2_beta. Diff: -0.50. Current: 107.04. Target: 106.54.
+[2023-10-22 21:51:30,282][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:30,282][INFO] Angle leg3_alpha. Diff:  0.24. Current: 101.76. Target: 102.0.
+[2023-10-22 21:51:30,282][INFO] Angle  leg3_beta. Diff:  0.86. Current: 109.68. Target: 110.54.
+[2023-10-22 21:51:30,283][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:51:30,283][INFO] Angle leg4_alpha. Diff:  0.31. Current: 69.84. Target: 70.15.
+[2023-10-22 21:51:30,283][INFO] Angle  leg4_beta. Diff:  0.89. Current: 120.0. Target: 120.89.
+[2023-10-22 21:51:30,283][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:30,284][INFO] Diff. Sum: 10.22. Max: 4.55
+[2023-10-22 21:51:30,314][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:51:30,318][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:51:30,322][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:51:31,618][INFO] Angle leg1_alpha. Diff:  0.40. Current: 86.88. Target: 87.28.
+[2023-10-22 21:51:31,619][INFO] Angle  leg1_beta. Diff:  4.55. Current: 117.36. Target: 121.91.
+[2023-10-22 21:51:31,620][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:31,621][INFO] Angle leg2_alpha. Diff:  0.43. Current: 87.84. Target: 88.27.
+[2023-10-22 21:51:31,622][INFO] Angle  leg2_beta. Diff: -0.89. Current: 84.48. Target: 83.59.
+[2023-10-22 21:51:31,623][INFO] Angle leg2_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:51:31,623][INFO] Angle leg3_alpha. Diff:  0.24. Current: 101.76. Target: 102.0.
+[2023-10-22 21:51:31,624][INFO] Angle  leg3_beta. Diff:  0.86. Current: 109.68. Target: 110.54.
+[2023-10-22 21:51:31,625][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:51:31,626][INFO] Angle leg4_alpha. Diff:  0.23. Current: 76.08. Target: 76.31.
+[2023-10-22 21:51:31,627][INFO] Angle  leg4_beta. Diff: -0.18. Current: 46.08. Target: 45.9.
+[2023-10-22 21:51:31,628][INFO] Angle leg4_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:51:31,629][INFO] Diff. Sum: 8.50. Max: 4.55
+[2023-10-22 21:51:31,656][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:51:31,659][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:51:31,662][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:51:31,998][INFO] Angle leg1_alpha. Diff: -0.56. Current: 87.84. Target: 87.28.
+[2023-10-22 21:51:31,998][INFO] Angle  leg1_beta. Diff:  4.31. Current: 117.6. Target: 121.91.
+[2023-10-22 21:51:31,998][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:31,998][INFO] Angle leg2_alpha. Diff:  0.34. Current: 102.24. Target: 102.58.
+[2023-10-22 21:51:31,998][INFO] Angle  leg2_beta. Diff:  0.30. Current: 96.72. Target: 97.02.
+[2023-10-22 21:51:31,999][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:31,999][INFO] Angle leg3_alpha. Diff:  0.24. Current: 101.76. Target: 102.0.
+[2023-10-22 21:51:31,999][INFO] Angle  leg3_beta. Diff:  0.14. Current: 110.4. Target: 110.54.
+[2023-10-22 21:51:31,999][INFO] Angle leg3_tetta. Diff: -0.48. Current: 0.48. Target: 0.0.
+[2023-10-22 21:51:31,999][INFO] Angle leg4_alpha. Diff:  0.01. Current: 91.68. Target: 91.69.
+[2023-10-22 21:51:31,999][INFO] Angle  leg4_beta. Diff:  1.27. Current: 61.2. Target: 62.47.
+[2023-10-22 21:51:31,999][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:31,999][INFO] Diff. Sum: 8.61. Max: 4.31
+[2023-10-22 21:51:32,042][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:32,046][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:32,049][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:32,963][INFO] Angle leg1_alpha. Diff:  0.15. Current: 35.28. Target: 35.43.
+[2023-10-22 21:51:32,963][INFO] Angle  leg1_beta. Diff: -0.74. Current: 107.28. Target: 106.54.
+[2023-10-22 21:51:32,964][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:32,964][INFO] Angle leg2_alpha. Diff: -0.08. Current: 87.36. Target: 87.28.
+[2023-10-22 21:51:32,964][INFO] Angle  leg2_beta. Diff:  0.47. Current: 121.44. Target: 121.91.
+[2023-10-22 21:51:32,965][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:32,965][INFO] Angle leg3_alpha. Diff:  0.07. Current: 70.08. Target: 70.15.
+[2023-10-22 21:51:32,965][INFO] Angle  leg3_beta. Diff:  6.41. Current: 114.48. Target: 120.89.
+[2023-10-22 21:51:32,966][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:51:32,966][INFO] Angle leg4_alpha. Diff:  0.48. Current: 101.52. Target: 102.0.
+[2023-10-22 21:51:32,966][INFO] Angle  leg4_beta. Diff:  0.14. Current: 110.4. Target: 110.54.
+[2023-10-22 21:51:32,966][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:32,967][INFO] Diff. Sum: 9.74. Max: 6.41
+[2023-10-22 21:51:33,699][INFO] Angle leg1_alpha. Diff:  1.69. Current: 72.48. Target: 74.17.
+[2023-10-22 21:51:33,699][INFO] Angle  leg1_beta. Diff: -0.61. Current: 107.76. Target: 107.15.
+[2023-10-22 21:51:33,700][INFO] Angle leg1_tetta. Diff:  0.72. Current: -0.72. Target: 0.0.
+[2023-10-22 21:51:33,700][INFO] Angle leg2_alpha. Diff:  0.16. Current: 87.12. Target: 87.28.
+[2023-10-22 21:51:33,700][INFO] Angle  leg2_beta. Diff:  0.47. Current: 121.44. Target: 121.91.
+[2023-10-22 21:51:33,700][INFO] Angle leg2_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:51:33,700][INFO] Angle leg3_alpha. Diff:  1.24. Current: 86.16. Target: 87.4.
+[2023-10-22 21:51:33,700][INFO] Angle  leg3_beta. Diff: -1.92. Current: 98.64. Target: 96.72.
+[2023-10-22 21:51:33,700][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:51:33,700][INFO] Angle leg4_alpha. Diff: -0.24. Current: 102.24. Target: 102.0.
+[2023-10-22 21:51:33,701][INFO] Angle  leg4_beta. Diff:  1.34. Current: 109.2. Target: 110.54.
+[2023-10-22 21:51:33,701][INFO] Angle leg4_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:51:33,701][INFO] Diff. Sum: 8.63. Max: 1.92
+[2023-10-22 21:51:33,727][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:51:33,730][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:51:33,733][INFO] Id : 3. Target required : 1017. Target real : 1000
+[2023-10-22 21:51:34,054][INFO] Angle leg1_alpha. Diff:  2.08. Current: 85.2. Target: 87.28.
+[2023-10-22 21:51:34,055][INFO] Angle  leg1_beta. Diff:  3.83. Current: 118.08. Target: 121.91.
+[2023-10-22 21:51:34,055][INFO] Angle leg1_tetta. Diff:  0.72. Current: -0.72. Target: 0.0.
+[2023-10-22 21:51:34,055][INFO] Angle leg2_alpha. Diff:  0.16. Current: 87.12. Target: 87.28.
+[2023-10-22 21:51:34,056][INFO] Angle  leg2_beta. Diff:  0.71. Current: 121.2. Target: 121.91.
+[2023-10-22 21:51:34,056][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:34,056][INFO] Angle leg3_alpha. Diff:  0.72. Current: 101.28. Target: 102.0.
+[2023-10-22 21:51:34,057][INFO] Angle  leg3_beta. Diff: -0.34. Current: 110.88. Target: 110.54.
+[2023-10-22 21:51:34,057][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:51:34,057][INFO] Angle leg4_alpha. Diff: -0.48. Current: 102.48. Target: 102.0.
+[2023-10-22 21:51:34,058][INFO] Angle  leg4_beta. Diff:  1.10. Current: 109.44. Target: 110.54.
+[2023-10-22 21:51:34,058][INFO] Angle leg4_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:51:34,058][INFO] Diff. Sum: 10.62. Max: 3.83
+[2023-10-22 21:51:34,087][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:34,090][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:34,094][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:34,112][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:34,116][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:34,119][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:34,128][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:34,132][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:34,135][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:34,564][INFO] Angle leg1_alpha. Diff:  0.63. Current: 62.88. Target: 63.51.
+[2023-10-22 21:51:34,565][INFO] Angle  leg1_beta. Diff:  1.13. Current: 118.08. Target: 119.21.
+[2023-10-22 21:51:34,565][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:34,566][INFO] Angle leg2_alpha. Diff:  0.39. Current: 63.12. Target: 63.51.
+[2023-10-22 21:51:34,566][INFO] Angle  leg2_beta. Diff:  0.41. Current: 118.8. Target: 119.21.
+[2023-10-22 21:51:34,566][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:34,567][INFO] Angle leg3_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:51:34,567][INFO] Angle  leg3_beta. Diff:  6.89. Current: 114.0. Target: 120.89.
+[2023-10-22 21:51:34,568][INFO] Angle leg3_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:51:34,568][INFO] Angle leg4_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:51:34,568][INFO] Angle  leg4_beta. Diff:  0.89. Current: 120.0. Target: 120.89.
+[2023-10-22 21:51:34,569][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:34,569][INFO] Diff. Sum: 11.60. Max: 6.89
+[2023-10-22 21:51:49,379][INFO] [Init] Initiating leg 1
+[2023-10-22 21:51:49,381][INFO] [Init] Initiating leg 2
+[2023-10-22 21:51:49,383][INFO] [Init] Initiating leg 3
+[2023-10-22 21:51:49,385][INFO] [Init] Initiating leg 4
+[2023-10-22 21:51:49,387][INFO] [Init] Initialization successful
+[2023-10-22 21:51:49,387][INFO] Move. Leg 1 for [-5, 0, -2]
+[2023-10-22 21:51:49,387][INFO] Move. Leg 3 for [-5, 0, -2]
+[2023-10-22 21:51:49,387][INFO] Move. Leg 1 for [0, 0, 2]
+[2023-10-22 21:51:49,388][INFO] Move. Leg 3 for [0, 0, 2]
+[2023-10-22 21:51:49,388][INFO] Body movement [-2.5, 0, 0]
+[2023-10-22 21:51:49,388][INFO] Moving mount point for 1 : [-2.5, 0, 0]
+[2023-10-22 21:51:49,388][INFO] Moving mount point for 2 : [-2.5, 0, 0]
+[2023-10-22 21:51:49,388][INFO] Moving mount point for 3 : [-2.5, 0, 0]
+[2023-10-22 21:51:49,389][INFO] Moving mount point for 4 : [-2.5, 0, 0]
+[2023-10-22 21:51:49,389][INFO] Move. Leg 2 for [-10, 0, -2]
+[2023-10-22 21:51:49,389][INFO] Move. Leg 4 for [-10, 0, -2]
+[2023-10-22 21:51:49,389][INFO] Move. Leg 2 for [0, 0, 2]
+[2023-10-22 21:51:49,389][INFO] Move. Leg 4 for [0, 0, 2]
+[2023-10-22 21:51:49,389][INFO] Body movement [-5, 0, 0]
+[2023-10-22 21:51:49,389][INFO] Moving mount point for 1 : [-5, 0, 0]
+[2023-10-22 21:51:49,390][INFO] Moving mount point for 2 : [-5, 0, 0]
+[2023-10-22 21:51:49,390][INFO] Moving mount point for 3 : [-5, 0, 0]
+[2023-10-22 21:51:49,390][INFO] Moving mount point for 4 : [-5, 0, 0]
+[2023-10-22 21:51:49,390][INFO] Move. Leg 1 for [-5, 0, -2]
+[2023-10-22 21:51:49,390][INFO] Move. Leg 3 for [-5, 0, -2]
+[2023-10-22 21:51:49,390][INFO] Move. Leg 1 for [0, 0, 2]
+[2023-10-22 21:51:49,391][INFO] Move. Leg 3 for [0, 0, 2]
+[2023-10-22 21:51:49,391][INFO] Body movement [-2.5, 0, 0]
+[2023-10-22 21:51:49,391][INFO] Moving mount point for 1 : [-2.5, 0, 0]
+[2023-10-22 21:51:49,391][INFO] Moving mount point for 2 : [-2.5, 0, 0]
+[2023-10-22 21:51:49,391][INFO] Moving mount point for 3 : [-2.5, 0, 0]
+[2023-10-22 21:51:49,391][INFO] Moving mount point for 4 : [-2.5, 0, 0]
+[2023-10-22 21:51:49,419][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:49,422][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:49,425][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:49,442][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:49,445][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:49,448][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:49,457][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:49,460][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:49,463][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:49,609][INFO] Angle leg1_alpha. Diff:  0.63. Current: 62.88. Target: 63.51.
+[2023-10-22 21:51:49,609][INFO] Angle  leg1_beta. Diff:  1.37. Current: 117.84. Target: 119.21.
+[2023-10-22 21:51:49,609][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:49,609][INFO] Angle leg2_alpha. Diff:  0.63. Current: 62.88. Target: 63.51.
+[2023-10-22 21:51:49,609][INFO] Angle  leg2_beta. Diff: -0.07. Current: 119.28. Target: 119.21.
+[2023-10-22 21:51:49,609][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:49,609][INFO] Angle leg3_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:51:49,610][INFO] Angle  leg3_beta. Diff:  6.89. Current: 114.0. Target: 120.89.
+[2023-10-22 21:51:49,610][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:51:49,610][INFO] Angle leg4_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:51:49,610][INFO] Angle  leg4_beta. Diff:  0.89. Current: 120.0. Target: 120.89.
+[2023-10-22 21:51:49,610][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:49,610][INFO] Diff. Sum: 11.74. Max: 6.89
+[2023-10-22 21:51:49,662][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:49,665][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:49,668][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:50,049][INFO] Angle leg1_alpha. Diff:  0.22. Current: 77.76. Target: 77.98.
+[2023-10-22 21:51:50,050][INFO] Angle  leg1_beta. Diff: -1.76. Current: 108.0. Target: 106.24.
+[2023-10-22 21:51:50,050][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:50,050][INFO] Angle leg2_alpha. Diff:  0.63. Current: 62.88. Target: 63.51.
+[2023-10-22 21:51:50,050][INFO] Angle  leg2_beta. Diff: -0.55. Current: 119.76. Target: 119.21.
+[2023-10-22 21:51:50,050][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:50,050][INFO] Angle leg3_alpha. Diff: -0.52. Current: 88.8. Target: 88.28.
+[2023-10-22 21:51:50,051][INFO] Angle  leg3_beta. Diff: -0.20. Current: 93.12. Target: 92.92.
+[2023-10-22 21:51:50,051][INFO] Angle leg3_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:50,051][INFO] Angle leg4_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:51:50,051][INFO] Angle  leg4_beta. Diff:  1.61. Current: 119.28. Target: 120.89.
+[2023-10-22 21:51:50,051][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:50,051][INFO] Diff. Sum: 7.20. Max: 1.76
+[2023-10-22 21:51:50,078][INFO] Id : 3. Target required : 1013. Target real : 1000
+[2023-10-22 21:51:50,082][INFO] Id : 3. Target required : 1013. Target real : 1000
+[2023-10-22 21:51:50,085][INFO] Id : 3. Target required : 1013. Target real : 1000
+[2023-10-22 21:51:50,112][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:50,115][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:50,118][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:50,382][INFO] Angle leg1_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:51:50,382][INFO] Angle  leg1_beta. Diff:  3.29. Current: 117.6. Target: 120.89.
+[2023-10-22 21:51:50,382][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:50,383][INFO] Angle leg2_alpha. Diff: -0.09. Current: 63.6. Target: 63.51.
+[2023-10-22 21:51:50,383][INFO] Angle  leg2_beta. Diff: -0.31. Current: 119.52. Target: 119.21.
+[2023-10-22 21:51:50,383][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:50,383][INFO] Angle leg3_alpha. Diff:  0.09. Current: 102.72. Target: 102.81.
+[2023-10-22 21:51:50,383][INFO] Angle  leg3_beta. Diff:  0.46. Current: 106.08. Target: 106.54.
+[2023-10-22 21:51:50,383][INFO] Angle leg3_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:50,383][INFO] Angle leg4_alpha. Diff:  0.51. Current: 91.2. Target: 91.71.
+[2023-10-22 21:51:50,383][INFO] Angle  leg4_beta. Diff:  0.65. Current: 120.24. Target: 120.89.
+[2023-10-22 21:51:50,384][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:50,384][INFO] Diff. Sum: 6.63. Max: 3.29
+[2023-10-22 21:51:50,410][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:51:50,413][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:51:50,419][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:51:50,436][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:50,439][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:50,442][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:50,451][INFO] Id : 21. Target required : 1009. Target real : 1000
+[2023-10-22 21:51:50,453][INFO] Id : 21. Target required : 1009. Target real : 1000
+[2023-10-22 21:51:50,456][INFO] Id : 21. Target required : 1009. Target real : 1000
+[2023-10-22 21:51:50,778][INFO] Angle leg1_alpha. Diff:  0.14. Current: 79.2. Target: 79.34.
+[2023-10-22 21:51:50,779][INFO] Angle  leg1_beta. Diff:  4.57. Current: 117.6. Target: 122.17.
+[2023-10-22 21:51:50,779][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:50,779][INFO] Angle leg2_alpha. Diff:  0.70. Current: 45.36. Target: 46.06.
+[2023-10-22 21:51:50,779][INFO] Angle  leg2_beta. Diff: -1.18. Current: 113.52. Target: 112.34.
+[2023-10-22 21:51:50,779][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:50,779][INFO] Angle leg3_alpha. Diff:  0.40. Current: 99.12. Target: 99.52.
+[2023-10-22 21:51:50,780][INFO] Angle  leg3_beta. Diff:  1.04. Current: 114.48. Target: 115.52.
+[2023-10-22 21:51:50,780][INFO] Angle leg3_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:50,780][INFO] Angle leg4_alpha. Diff:  0.62. Current: 78.72. Target: 79.34.
+[2023-10-22 21:51:50,780][INFO] Angle  leg4_beta. Diff:  1.93. Current: 120.24. Target: 122.17.
+[2023-10-22 21:51:50,780][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:50,780][INFO] Diff. Sum: 11.54. Max: 4.57
+[2023-10-22 21:51:50,806][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:51:50,809][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:51:50,812][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:51:50,829][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:50,832][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:50,836][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:51,533][INFO] Angle leg1_alpha. Diff: -0.34. Current: 79.68. Target: 79.34.
+[2023-10-22 21:51:51,534][INFO] Angle  leg1_beta. Diff:  4.33. Current: 117.84. Target: 122.17.
+[2023-10-22 21:51:51,534][INFO] Angle leg1_tetta. Diff:  0.72. Current: -0.72. Target: 0.0.
+[2023-10-22 21:51:51,534][INFO] Angle leg2_alpha. Diff: -0.46. Current: 85.44. Target: 84.98.
+[2023-10-22 21:51:51,535][INFO] Angle  leg2_beta. Diff: -0.39. Current: 101.76. Target: 101.37.
+[2023-10-22 21:51:51,535][INFO] Angle leg2_tetta. Diff:  0.72. Current: -0.72. Target: 0.0.
+[2023-10-22 21:51:51,535][INFO] Angle leg3_alpha. Diff:  0.40. Current: 99.12. Target: 99.52.
+[2023-10-22 21:51:51,536][INFO] Angle  leg3_beta. Diff:  1.52. Current: 114.0. Target: 115.52.
+[2023-10-22 21:51:51,536][INFO] Angle leg3_tetta. Diff: -0.48. Current: 0.48. Target: 0.0.
+[2023-10-22 21:51:51,536][INFO] Angle leg4_alpha. Diff:  0.06. Current: 87.84. Target: 87.9.
+[2023-10-22 21:51:51,537][INFO] Angle  leg4_beta. Diff:  0.00. Current: 80.88. Target: 80.88.
+[2023-10-22 21:51:51,537][INFO] Angle leg4_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:51:51,537][INFO] Diff. Sum: 9.42. Max: 4.33
+[2023-10-22 21:51:51,566][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:51:51,569][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:51:51,572][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:51:51,590][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:51,594][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:51,597][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:51,879][INFO] Angle leg1_alpha. Diff: -0.34. Current: 79.68. Target: 79.34.
+[2023-10-22 21:51:51,879][INFO] Angle  leg1_beta. Diff:  4.57. Current: 117.6. Target: 122.17.
+[2023-10-22 21:51:51,880][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:51,880][INFO] Angle leg2_alpha. Diff: -0.08. Current: 99.6. Target: 99.52.
+[2023-10-22 21:51:51,880][INFO] Angle  leg2_beta. Diff:  0.56. Current: 114.96. Target: 115.52.
+[2023-10-22 21:51:51,881][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:51,881][INFO] Angle leg3_alpha. Diff:  0.40. Current: 99.12. Target: 99.52.
+[2023-10-22 21:51:51,881][INFO] Angle  leg3_beta. Diff:  1.52. Current: 114.0. Target: 115.52.
+[2023-10-22 21:51:51,882][INFO] Angle leg3_tetta. Diff: -0.48. Current: 0.48. Target: 0.0.
+[2023-10-22 21:51:51,882][INFO] Angle leg4_alpha. Diff:  0.16. Current: 102.0. Target: 102.16.
+[2023-10-22 21:51:51,882][INFO] Angle  leg4_beta. Diff:  0.71. Current: 93.6. Target: 94.31.
+[2023-10-22 21:51:51,883][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:51,883][INFO] Diff. Sum: 10.02. Max: 4.57
+[2023-10-22 21:51:51,929][INFO] Id : 15. Target required : 1034. Target real : 1000
+[2023-10-22 21:51:51,933][INFO] Id : 15. Target required : 1034. Target real : 1000
+[2023-10-22 21:51:51,936][INFO] Id : 15. Target required : 1034. Target real : 1000
+[2023-10-22 21:51:52,534][INFO] Angle leg1_alpha. Diff:  0.46. Current: 45.6. Target: 46.06.
+[2023-10-22 21:51:52,534][INFO] Angle  leg1_beta. Diff: -1.42. Current: 113.76. Target: 112.34.
+[2023-10-22 21:51:52,535][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:52,535][INFO] Angle leg2_alpha. Diff:  0.14. Current: 79.2. Target: 79.34.
+[2023-10-22 21:51:52,536][INFO] Angle  leg2_beta. Diff: -0.23. Current: 122.4. Target: 122.17.
+[2023-10-22 21:51:52,536][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:52,536][INFO] Angle leg3_alpha. Diff:  0.14. Current: 79.2. Target: 79.34.
+[2023-10-22 21:51:52,536][INFO] Angle  leg3_beta. Diff:  7.69. Current: 114.48. Target: 122.17.
+[2023-10-22 21:51:52,537][INFO] Angle leg3_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:51:52,537][INFO] Angle leg4_alpha. Diff:  0.40. Current: 99.12. Target: 99.52.
+[2023-10-22 21:51:52,537][INFO] Angle  leg4_beta. Diff: -0.40. Current: 115.92. Target: 115.52.
+[2023-10-22 21:51:52,538][INFO] Angle leg4_tetta. Diff:  0.72. Current: -0.72. Target: 0.0.
+[2023-10-22 21:51:52,538][INFO] Diff. Sum: 12.32. Max: 7.69
+[2023-10-22 21:51:52,989][INFO] Angle leg1_alpha. Diff:  1.24. Current: 66.24. Target: 67.48.
+[2023-10-22 21:51:52,990][INFO] Angle  leg1_beta. Diff: -2.30. Current: 109.68. Target: 107.38.
+[2023-10-22 21:51:52,990][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:52,990][INFO] Angle leg2_alpha. Diff:  0.14. Current: 79.2. Target: 79.34.
+[2023-10-22 21:51:52,991][INFO] Angle  leg2_beta. Diff:  0.01. Current: 122.16. Target: 122.17.
+[2023-10-22 21:51:52,991][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:52,991][INFO] Angle leg3_alpha. Diff:  0.02. Current: 84.96. Target: 84.98.
+[2023-10-22 21:51:52,991][INFO] Angle  leg3_beta. Diff: -2.07. Current: 103.44. Target: 101.37.
+[2023-10-22 21:51:52,992][INFO] Angle leg3_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:52,992][INFO] Angle leg4_alpha. Diff: -0.08. Current: 99.6. Target: 99.52.
+[2023-10-22 21:51:52,992][INFO] Angle  leg4_beta. Diff:  0.80. Current: 114.72. Target: 115.52.
+[2023-10-22 21:51:52,993][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:52,993][INFO] Diff. Sum: 7.86. Max: 2.30
+[2023-10-22 21:51:53,022][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:51:53,025][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:51:53,028][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:51:53,047][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:53,050][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:53,053][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:53,337][INFO] Angle leg1_alpha. Diff:  1.10. Current: 78.24. Target: 79.34.
+[2023-10-22 21:51:53,338][INFO] Angle  leg1_beta. Diff:  4.57. Current: 117.6. Target: 122.17.
+[2023-10-22 21:51:53,338][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:53,338][INFO] Angle leg2_alpha. Diff: -0.34. Current: 79.68. Target: 79.34.
+[2023-10-22 21:51:53,339][INFO] Angle  leg2_beta. Diff:  0.01. Current: 122.16. Target: 122.17.
+[2023-10-22 21:51:53,339][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:53,339][INFO] Angle leg3_alpha. Diff:  0.64. Current: 98.88. Target: 99.52.
+[2023-10-22 21:51:53,340][INFO] Angle  leg3_beta. Diff:  1.52. Current: 114.0. Target: 115.52.
+[2023-10-22 21:51:53,340][INFO] Angle leg3_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:53,340][INFO] Angle leg4_alpha. Diff:  0.16. Current: 99.36. Target: 99.52.
+[2023-10-22 21:51:53,341][INFO] Angle  leg4_beta. Diff: -0.16. Current: 115.68. Target: 115.52.
+[2023-10-22 21:51:53,341][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:53,341][INFO] Diff. Sum: 9.70. Max: 4.57
+[2023-10-22 21:51:53,370][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:53,373][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:53,377][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:51:53,395][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:53,398][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:53,401][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:51:53,410][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:53,414][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:53,417][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:51:53,719][INFO] Angle leg1_alpha. Diff:  0.63. Current: 62.88. Target: 63.51.
+[2023-10-22 21:51:53,720][INFO] Angle  leg1_beta. Diff:  1.61. Current: 117.6. Target: 119.21.
+[2023-10-22 21:51:53,720][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:53,721][INFO] Angle leg2_alpha. Diff:  0.63. Current: 62.88. Target: 63.51.
+[2023-10-22 21:51:53,721][INFO] Angle  leg2_beta. Diff: -0.79. Current: 120.0. Target: 119.21.
+[2023-10-22 21:51:53,721][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:51:53,721][INFO] Angle leg3_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:51:53,722][INFO] Angle  leg3_beta. Diff:  6.41. Current: 114.48. Target: 120.89.
+[2023-10-22 21:51:53,722][INFO] Angle leg3_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:51:53,722][INFO] Angle leg4_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:51:53,723][INFO] Angle  leg4_beta. Diff:  0.41. Current: 120.48. Target: 120.89.
+[2023-10-22 21:51:53,723][INFO] Angle leg4_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:51:53,723][INFO] Diff. Sum: 11.74. Max: 6.41
+[2023-10-22 21:52:03,805][INFO] [Init] Initiating leg 1
+[2023-10-22 21:52:03,807][INFO] [Init] Initiating leg 2
+[2023-10-22 21:52:03,809][INFO] [Init] Initiating leg 3
+[2023-10-22 21:52:03,811][INFO] [Init] Initiating leg 4
+[2023-10-22 21:52:03,814][INFO] [Init] Initialization successful
+[2023-10-22 21:52:03,814][INFO] Move. Leg 1 for [-5, 0, -2]
+[2023-10-22 21:52:03,814][INFO] Move. Leg 3 for [-5, 0, -2]
+[2023-10-22 21:52:03,815][INFO] Move. Leg 1 for [0, 0, 2]
+[2023-10-22 21:52:03,815][INFO] Move. Leg 3 for [0, 0, 2]
+[2023-10-22 21:52:03,815][INFO] Body movement [-2.5, 0, 0]
+[2023-10-22 21:52:03,815][INFO] Moving mount point for 1 : [-2.5, 0, 0]
+[2023-10-22 21:52:03,816][INFO] Moving mount point for 2 : [-2.5, 0, 0]
+[2023-10-22 21:52:03,816][INFO] Moving mount point for 3 : [-2.5, 0, 0]
+[2023-10-22 21:52:03,816][INFO] Moving mount point for 4 : [-2.5, 0, 0]
+[2023-10-22 21:52:03,816][INFO] Move. Leg 2 for [-10, 0, -2]
+[2023-10-22 21:52:03,817][INFO] Move. Leg 4 for [-10, 0, -2]
+[2023-10-22 21:52:03,817][INFO] Move. Leg 2 for [0, 0, 2]
+[2023-10-22 21:52:03,817][INFO] Move. Leg 4 for [0, 0, 2]
+[2023-10-22 21:52:03,818][INFO] Body movement [-5, 0, 0]
+[2023-10-22 21:52:03,818][INFO] Moving mount point for 1 : [-5, 0, 0]
+[2023-10-22 21:52:03,818][INFO] Moving mount point for 2 : [-5, 0, 0]
+[2023-10-22 21:52:03,819][INFO] Moving mount point for 3 : [-5, 0, 0]
+[2023-10-22 21:52:03,819][INFO] Moving mount point for 4 : [-5, 0, 0]
+[2023-10-22 21:52:03,819][INFO] Move. Leg 1 for [-5, 0, -2]
+[2023-10-22 21:52:03,819][INFO] Move. Leg 3 for [-5, 0, -2]
+[2023-10-22 21:52:03,820][INFO] Move. Leg 1 for [0, 0, 2]
+[2023-10-22 21:52:03,820][INFO] Move. Leg 3 for [0, 0, 2]
+[2023-10-22 21:52:03,820][INFO] Body movement [-2.5, 0, 0]
+[2023-10-22 21:52:03,821][INFO] Moving mount point for 1 : [-2.5, 0, 0]
+[2023-10-22 21:52:03,821][INFO] Moving mount point for 2 : [-2.5, 0, 0]
+[2023-10-22 21:52:03,821][INFO] Moving mount point for 3 : [-2.5, 0, 0]
+[2023-10-22 21:52:03,821][INFO] Moving mount point for 4 : [-2.5, 0, 0]
+[2023-10-22 21:52:03,848][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:03,851][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:03,855][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:03,872][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:52:03,875][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:52:03,879][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:52:03,888][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:03,891][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:03,894][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:04,030][INFO] Angle leg1_alpha. Diff:  0.39. Current: 63.12. Target: 63.51.
+[2023-10-22 21:52:04,031][INFO] Angle  leg1_beta. Diff:  1.61. Current: 117.6. Target: 119.21.
+[2023-10-22 21:52:04,031][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:04,031][INFO] Angle leg2_alpha. Diff: -0.09. Current: 63.6. Target: 63.51.
+[2023-10-22 21:52:04,032][INFO] Angle  leg2_beta. Diff: -0.55. Current: 119.76. Target: 119.21.
+[2023-10-22 21:52:04,032][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:04,033][INFO] Angle leg3_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:52:04,033][INFO] Angle  leg3_beta. Diff:  6.65. Current: 114.24. Target: 120.89.
+[2023-10-22 21:52:04,033][INFO] Angle leg3_tetta. Diff:  0.72. Current: -0.72. Target: 0.0.
+[2023-10-22 21:52:04,034][INFO] Angle leg4_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:52:04,034][INFO] Angle  leg4_beta. Diff:  0.89. Current: 120.0. Target: 120.89.
+[2023-10-22 21:52:04,034][INFO] Angle leg4_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:52:04,035][INFO] Diff. Sum: 11.92. Max: 6.65
+[2023-10-22 21:52:04,087][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:04,090][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:04,093][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:04,481][INFO] Angle leg1_alpha. Diff:  0.46. Current: 77.52. Target: 77.98.
+[2023-10-22 21:52:04,481][INFO] Angle  leg1_beta. Diff: -2.24. Current: 108.48. Target: 106.24.
+[2023-10-22 21:52:04,481][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:04,482][INFO] Angle leg2_alpha. Diff: -0.09. Current: 63.6. Target: 63.51.
+[2023-10-22 21:52:04,482][INFO] Angle  leg2_beta. Diff: -0.07. Current: 119.28. Target: 119.21.
+[2023-10-22 21:52:04,482][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:04,483][INFO] Angle leg3_alpha. Diff: -0.52. Current: 88.8. Target: 88.28.
+[2023-10-22 21:52:04,483][INFO] Angle  leg3_beta. Diff: -1.16. Current: 94.08. Target: 92.92.
+[2023-10-22 21:52:04,483][INFO] Angle leg3_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:04,483][INFO] Angle leg4_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:52:04,484][INFO] Angle  leg4_beta. Diff:  1.37. Current: 119.52. Target: 120.89.
+[2023-10-22 21:52:04,484][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:04,484][INFO] Diff. Sum: 7.38. Max: 2.24
+[2023-10-22 21:52:04,513][INFO] Id : 3. Target required : 1013. Target real : 1000
+[2023-10-22 21:52:04,517][INFO] Id : 3. Target required : 1013. Target real : 1000
+[2023-10-22 21:52:04,520][INFO] Id : 3. Target required : 1013. Target real : 1000
+[2023-10-22 21:52:04,547][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:04,551][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:04,555][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:04,824][INFO] Angle leg1_alpha. Diff:  0.75. Current: 90.96. Target: 91.71.
+[2023-10-22 21:52:04,825][INFO] Angle  leg1_beta. Diff:  3.29. Current: 117.6. Target: 120.89.
+[2023-10-22 21:52:04,825][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:04,825][INFO] Angle leg2_alpha. Diff: -0.09. Current: 63.6. Target: 63.51.
+[2023-10-22 21:52:04,825][INFO] Angle  leg2_beta. Diff: -0.55. Current: 119.76. Target: 119.21.
+[2023-10-22 21:52:04,825][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:04,825][INFO] Angle leg3_alpha. Diff:  0.33. Current: 102.48. Target: 102.81.
+[2023-10-22 21:52:04,825][INFO] Angle  leg3_beta. Diff:  0.46. Current: 106.08. Target: 106.54.
+[2023-10-22 21:52:04,826][INFO] Angle leg3_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:04,826][INFO] Angle leg4_alpha. Diff:  0.99. Current: 90.72. Target: 91.71.
+[2023-10-22 21:52:04,826][INFO] Angle  leg4_beta. Diff:  0.41. Current: 120.48. Target: 120.89.
+[2023-10-22 21:52:04,826][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:04,826][INFO] Diff. Sum: 8.07. Max: 3.29
+[2023-10-22 21:52:04,852][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:04,855][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:04,858][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:04,875][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:04,878][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:04,881][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:04,890][INFO] Id : 21. Target required : 1009. Target real : 1000
+[2023-10-22 21:52:04,893][INFO] Id : 21. Target required : 1009. Target real : 1000
+[2023-10-22 21:52:04,896][INFO] Id : 21. Target required : 1009. Target real : 1000
+[2023-10-22 21:52:05,218][INFO] Angle leg1_alpha. Diff:  0.14. Current: 79.2. Target: 79.34.
+[2023-10-22 21:52:05,218][INFO] Angle  leg1_beta. Diff:  4.57. Current: 117.6. Target: 122.17.
+[2023-10-22 21:52:05,218][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:05,218][INFO] Angle leg2_alpha. Diff:  0.70. Current: 45.36. Target: 46.06.
+[2023-10-22 21:52:05,218][INFO] Angle  leg2_beta. Diff: -0.94. Current: 113.28. Target: 112.34.
+[2023-10-22 21:52:05,218][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:05,219][INFO] Angle leg3_alpha. Diff:  0.16. Current: 99.36. Target: 99.52.
+[2023-10-22 21:52:05,219][INFO] Angle  leg3_beta. Diff:  1.04. Current: 114.48. Target: 115.52.
+[2023-10-22 21:52:05,219][INFO] Angle leg3_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:05,219][INFO] Angle leg4_alpha. Diff:  0.86. Current: 78.48. Target: 79.34.
+[2023-10-22 21:52:05,219][INFO] Angle  leg4_beta. Diff:  1.69. Current: 120.48. Target: 122.17.
+[2023-10-22 21:52:05,219][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:05,219][INFO] Diff. Sum: 11.30. Max: 4.57
+[2023-10-22 21:52:05,245][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:05,249][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:05,252][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:05,269][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:05,272][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:05,275][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:05,981][INFO] Angle leg1_alpha. Diff: -0.10. Current: 79.44. Target: 79.34.
+[2023-10-22 21:52:05,981][INFO] Angle  leg1_beta. Diff:  4.57. Current: 117.6. Target: 122.17.
+[2023-10-22 21:52:05,981][INFO] Angle leg1_tetta. Diff:  0.72. Current: -0.72. Target: 0.0.
+[2023-10-22 21:52:05,982][INFO] Angle leg2_alpha. Diff: -0.22. Current: 85.2. Target: 84.98.
+[2023-10-22 21:52:05,982][INFO] Angle  leg2_beta. Diff: -0.15. Current: 101.52. Target: 101.37.
+[2023-10-22 21:52:05,982][INFO] Angle leg2_tetta. Diff:  0.72. Current: -0.72. Target: 0.0.
+[2023-10-22 21:52:05,983][INFO] Angle leg3_alpha. Diff:  0.40. Current: 99.12. Target: 99.52.
+[2023-10-22 21:52:05,983][INFO] Angle  leg3_beta. Diff:  1.52. Current: 114.0. Target: 115.52.
+[2023-10-22 21:52:05,983][INFO] Angle leg3_tetta. Diff: -0.48. Current: 0.48. Target: 0.0.
+[2023-10-22 21:52:05,983][INFO] Angle leg4_alpha. Diff:  0.06. Current: 87.84. Target: 87.9.
+[2023-10-22 21:52:05,984][INFO] Angle  leg4_beta. Diff:  0.00. Current: 80.88. Target: 80.88.
+[2023-10-22 21:52:05,984][INFO] Angle leg4_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:52:05,984][INFO] Diff. Sum: 9.18. Max: 4.57
+[2023-10-22 21:52:06,013][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:06,017][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:06,020][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:06,039][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:06,042][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:06,046][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:06,325][INFO] Angle leg1_alpha. Diff: -0.34. Current: 79.68. Target: 79.34.
+[2023-10-22 21:52:06,326][INFO] Angle  leg1_beta. Diff:  4.33. Current: 117.84. Target: 122.17.
+[2023-10-22 21:52:06,326][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:06,327][INFO] Angle leg2_alpha. Diff: -0.56. Current: 100.08. Target: 99.52.
+[2023-10-22 21:52:06,328][INFO] Angle  leg2_beta. Diff:  0.56. Current: 114.96. Target: 115.52.
+[2023-10-22 21:52:06,328][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:06,329][INFO] Angle leg3_alpha. Diff:  0.16. Current: 99.36. Target: 99.52.
+[2023-10-22 21:52:06,329][INFO] Angle  leg3_beta. Diff:  1.52. Current: 114.0. Target: 115.52.
+[2023-10-22 21:52:06,330][INFO] Angle leg3_tetta. Diff: -0.48. Current: 0.48. Target: 0.0.
+[2023-10-22 21:52:06,330][INFO] Angle leg4_alpha. Diff:  0.40. Current: 101.76. Target: 102.16.
+[2023-10-22 21:52:06,331][INFO] Angle  leg4_beta. Diff:  1.43. Current: 92.88. Target: 94.31.
+[2023-10-22 21:52:06,332][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:06,332][INFO] Diff. Sum: 10.98. Max: 4.33
+[2023-10-22 21:52:06,379][INFO] Id : 15. Target required : 1034. Target real : 1000
+[2023-10-22 21:52:06,382][INFO] Id : 15. Target required : 1034. Target real : 1000
+[2023-10-22 21:52:06,386][INFO] Id : 15. Target required : 1034. Target real : 1000
+[2023-10-22 21:52:06,988][INFO] Angle leg1_alpha. Diff:  0.22. Current: 45.84. Target: 46.06.
+[2023-10-22 21:52:06,989][INFO] Angle  leg1_beta. Diff: -0.94. Current: 113.28. Target: 112.34.
+[2023-10-22 21:52:06,990][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:06,990][INFO] Angle leg2_alpha. Diff:  0.14. Current: 79.2. Target: 79.34.
+[2023-10-22 21:52:06,991][INFO] Angle  leg2_beta. Diff:  0.25. Current: 121.92. Target: 122.17.
+[2023-10-22 21:52:06,992][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:06,992][INFO] Angle leg3_alpha. Diff:  0.62. Current: 78.72. Target: 79.34.
+[2023-10-22 21:52:06,993][INFO] Angle  leg3_beta. Diff:  7.69. Current: 114.48. Target: 122.17.
+[2023-10-22 21:52:06,993][INFO] Angle leg3_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:06,994][INFO] Angle leg4_alpha. Diff: -0.08. Current: 99.6. Target: 99.52.
+[2023-10-22 21:52:06,995][INFO] Angle  leg4_beta. Diff: -0.16. Current: 115.68. Target: 115.52.
+[2023-10-22 21:52:06,995][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:06,996][INFO] Diff. Sum: 11.54. Max: 7.69
+[2023-10-22 21:52:07,443][INFO] Angle leg1_alpha. Diff:  1.00. Current: 66.48. Target: 67.48.
+[2023-10-22 21:52:07,443][INFO] Angle  leg1_beta. Diff: -2.30. Current: 109.68. Target: 107.38.
+[2023-10-22 21:52:07,444][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:07,445][INFO] Angle leg2_alpha. Diff:  0.14. Current: 79.2. Target: 79.34.
+[2023-10-22 21:52:07,445][INFO] Angle  leg2_beta. Diff:  0.73. Current: 121.44. Target: 122.17.
+[2023-10-22 21:52:07,446][INFO] Angle leg2_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:52:07,446][INFO] Angle leg3_alpha. Diff:  0.02. Current: 84.96. Target: 84.98.
+[2023-10-22 21:52:07,447][INFO] Angle  leg3_beta. Diff: -1.83. Current: 103.2. Target: 101.37.
+[2023-10-22 21:52:07,448][INFO] Angle leg3_tetta. Diff:  0.72. Current: -0.72. Target: 0.0.
+[2023-10-22 21:52:07,448][INFO] Angle leg4_alpha. Diff:  0.16. Current: 99.36. Target: 99.52.
+[2023-10-22 21:52:07,449][INFO] Angle  leg4_beta. Diff:  0.80. Current: 114.72. Target: 115.52.
+[2023-10-22 21:52:07,449][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:07,450][INFO] Diff. Sum: 8.42. Max: 2.30
+[2023-10-22 21:52:07,479][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:07,482][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:07,486][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:07,504][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:07,508][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:07,511][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:07,795][INFO] Angle leg1_alpha. Diff:  1.10. Current: 78.24. Target: 79.34.
+[2023-10-22 21:52:07,796][INFO] Angle  leg1_beta. Diff:  4.57. Current: 117.6. Target: 122.17.
+[2023-10-22 21:52:07,797][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:07,797][INFO] Angle leg2_alpha. Diff: -0.58. Current: 79.92. Target: 79.34.
+[2023-10-22 21:52:07,798][INFO] Angle  leg2_beta. Diff:  0.25. Current: 121.92. Target: 122.17.
+[2023-10-22 21:52:07,798][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:07,799][INFO] Angle leg3_alpha. Diff:  0.40. Current: 99.12. Target: 99.52.
+[2023-10-22 21:52:07,800][INFO] Angle  leg3_beta. Diff:  1.76. Current: 113.76. Target: 115.52.
+[2023-10-22 21:52:07,800][INFO] Angle leg3_tetta. Diff:  0.72. Current: -0.72. Target: 0.0.
+[2023-10-22 21:52:07,801][INFO] Angle leg4_alpha. Diff: -0.08. Current: 99.6. Target: 99.52.
+[2023-10-22 21:52:07,801][INFO] Angle  leg4_beta. Diff: -0.16. Current: 115.68. Target: 115.52.
+[2023-10-22 21:52:07,802][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:07,802][INFO] Diff. Sum: 10.34. Max: 4.57
+[2023-10-22 21:52:07,831][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:07,835][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:07,838][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:07,857][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:52:07,860][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:52:07,864][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:52:07,873][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:07,877][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:07,880][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:08,185][INFO] Angle leg1_alpha. Diff:  0.39. Current: 63.12. Target: 63.51.
+[2023-10-22 21:52:08,186][INFO] Angle  leg1_beta. Diff:  1.61. Current: 117.6. Target: 119.21.
+[2023-10-22 21:52:08,187][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:08,187][INFO] Angle leg2_alpha. Diff:  0.15. Current: 63.36. Target: 63.51.
+[2023-10-22 21:52:08,188][INFO] Angle  leg2_beta. Diff: -0.07. Current: 119.28. Target: 119.21.
+[2023-10-22 21:52:08,189][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:08,189][INFO] Angle leg3_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:52:08,190][INFO] Angle  leg3_beta. Diff:  6.89. Current: 114.0. Target: 120.89.
+[2023-10-22 21:52:08,190][INFO] Angle leg3_tetta. Diff:  0.72. Current: -0.72. Target: 0.0.
+[2023-10-22 21:52:08,191][INFO] Angle leg4_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:52:08,191][INFO] Angle  leg4_beta. Diff:  0.41. Current: 120.48. Target: 120.89.
+[2023-10-22 21:52:08,192][INFO] Angle leg4_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:52:08,193][INFO] Diff. Sum: 11.26. Max: 6.89
+[2023-10-22 21:52:14,466][INFO] [Init] Initiating leg 1
+[2023-10-22 21:52:14,468][INFO] [Init] Initiating leg 2
+[2023-10-22 21:52:14,471][INFO] [Init] Initiating leg 3
+[2023-10-22 21:52:14,473][INFO] [Init] Initiating leg 4
+[2023-10-22 21:52:14,475][INFO] [Init] Initialization successful
+[2023-10-22 21:52:14,475][INFO] Move. Leg 1 for [-5, 0, -2]
+[2023-10-22 21:52:14,476][INFO] Move. Leg 3 for [-5, 0, -2]
+[2023-10-22 21:52:14,476][INFO] Move. Leg 1 for [0, 0, 2]
+[2023-10-22 21:52:14,476][INFO] Move. Leg 3 for [0, 0, 2]
+[2023-10-22 21:52:14,477][INFO] Body movement [-2.5, 0, 0]
+[2023-10-22 21:52:14,477][INFO] Moving mount point for 1 : [-2.5, 0, 0]
+[2023-10-22 21:52:14,477][INFO] Moving mount point for 2 : [-2.5, 0, 0]
+[2023-10-22 21:52:14,477][INFO] Moving mount point for 3 : [-2.5, 0, 0]
+[2023-10-22 21:52:14,478][INFO] Moving mount point for 4 : [-2.5, 0, 0]
+[2023-10-22 21:52:14,478][INFO] Move. Leg 2 for [-10, 0, -2]
+[2023-10-22 21:52:14,478][INFO] Move. Leg 4 for [-10, 0, -2]
+[2023-10-22 21:52:14,479][INFO] Move. Leg 2 for [0, 0, 2]
+[2023-10-22 21:52:14,479][INFO] Move. Leg 4 for [0, 0, 2]
+[2023-10-22 21:52:14,479][INFO] Body movement [-5, 0, 0]
+[2023-10-22 21:52:14,479][INFO] Moving mount point for 1 : [-5, 0, 0]
+[2023-10-22 21:52:14,480][INFO] Moving mount point for 2 : [-5, 0, 0]
+[2023-10-22 21:52:14,480][INFO] Moving mount point for 3 : [-5, 0, 0]
+[2023-10-22 21:52:14,480][INFO] Moving mount point for 4 : [-5, 0, 0]
+[2023-10-22 21:52:14,480][INFO] Move. Leg 1 for [-5, 0, -2]
+[2023-10-22 21:52:14,481][INFO] Move. Leg 3 for [-5, 0, -2]
+[2023-10-22 21:52:14,481][INFO] Move. Leg 1 for [0, 0, 2]
+[2023-10-22 21:52:14,481][INFO] Move. Leg 3 for [0, 0, 2]
+[2023-10-22 21:52:14,481][INFO] Body movement [-2.5, 0, 0]
+[2023-10-22 21:52:14,482][INFO] Moving mount point for 1 : [-2.5, 0, 0]
+[2023-10-22 21:52:14,482][INFO] Moving mount point for 2 : [-2.5, 0, 0]
+[2023-10-22 21:52:14,482][INFO] Moving mount point for 3 : [-2.5, 0, 0]
+[2023-10-22 21:52:14,482][INFO] Moving mount point for 4 : [-2.5, 0, 0]
+[2023-10-22 21:52:14,509][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:14,513][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:14,516][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:14,533][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:52:14,537][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:52:14,540][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:52:14,549][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:14,552][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:14,555][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:14,700][INFO] Angle leg1_alpha. Diff:  0.15. Current: 63.36. Target: 63.51.
+[2023-10-22 21:52:14,701][INFO] Angle  leg1_beta. Diff:  1.61. Current: 117.6. Target: 119.21.
+[2023-10-22 21:52:14,701][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:14,701][INFO] Angle leg2_alpha. Diff:  0.63. Current: 62.88. Target: 63.51.
+[2023-10-22 21:52:14,702][INFO] Angle  leg2_beta. Diff: -0.07. Current: 119.28. Target: 119.21.
+[2023-10-22 21:52:14,702][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:14,702][INFO] Angle leg3_alpha. Diff: -0.69. Current: 92.4. Target: 91.71.
+[2023-10-22 21:52:14,702][INFO] Angle  leg3_beta. Diff:  6.89. Current: 114.0. Target: 120.89.
+[2023-10-22 21:52:14,703][INFO] Angle leg3_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:14,703][INFO] Angle leg4_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:52:14,703][INFO] Angle  leg4_beta. Diff:  0.65. Current: 120.24. Target: 120.89.
+[2023-10-22 21:52:14,703][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:14,703][INFO] Diff. Sum: 12.40. Max: 6.89
+[2023-10-22 21:52:14,755][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:14,758][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:14,761][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:15,144][INFO] Angle leg1_alpha. Diff:  0.70. Current: 77.28. Target: 77.98.
+[2023-10-22 21:52:15,145][INFO] Angle  leg1_beta. Diff: -1.76. Current: 108.0. Target: 106.24.
+[2023-10-22 21:52:15,146][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:15,146][INFO] Angle leg2_alpha. Diff: -0.33. Current: 63.84. Target: 63.51.
+[2023-10-22 21:52:15,147][INFO] Angle  leg2_beta. Diff: -0.07. Current: 119.28. Target: 119.21.
+[2023-10-22 21:52:15,147][INFO] Angle leg2_tetta. Diff:  0.00. Current: 0.0. Target: 0.0.
+[2023-10-22 21:52:15,148][INFO] Angle leg3_alpha. Diff: -0.52. Current: 88.8. Target: 88.28.
+[2023-10-22 21:52:15,149][INFO] Angle  leg3_beta. Diff: -0.20. Current: 93.12. Target: 92.92.
+[2023-10-22 21:52:15,149][INFO] Angle leg3_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:15,150][INFO] Angle leg4_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:52:15,150][INFO] Angle  leg4_beta. Diff:  1.13. Current: 119.76. Target: 120.89.
+[2023-10-22 21:52:15,151][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:15,151][INFO] Diff. Sum: 5.94. Max: 1.76
+[2023-10-22 21:52:15,180][INFO] Id : 3. Target required : 1013. Target real : 1000
+[2023-10-22 21:52:15,184][INFO] Id : 3. Target required : 1013. Target real : 1000
+[2023-10-22 21:52:15,187][INFO] Id : 3. Target required : 1013. Target real : 1000
+[2023-10-22 21:52:15,215][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:15,218][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:15,222][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:15,488][INFO] Angle leg1_alpha. Diff:  0.99. Current: 90.72. Target: 91.71.
+[2023-10-22 21:52:15,488][INFO] Angle  leg1_beta. Diff:  3.29. Current: 117.6. Target: 120.89.
+[2023-10-22 21:52:15,489][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:15,489][INFO] Angle leg2_alpha. Diff: -0.09. Current: 63.6. Target: 63.51.
+[2023-10-22 21:52:15,489][INFO] Angle  leg2_beta. Diff: -0.31. Current: 119.52. Target: 119.21.
+[2023-10-22 21:52:15,489][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:15,489][INFO] Angle leg3_alpha. Diff:  0.09. Current: 102.72. Target: 102.81.
+[2023-10-22 21:52:15,489][INFO] Angle  leg3_beta. Diff:  0.46. Current: 106.08. Target: 106.54.
+[2023-10-22 21:52:15,489][INFO] Angle leg3_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:15,489][INFO] Angle leg4_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:52:15,490][INFO] Angle  leg4_beta. Diff:  0.65. Current: 120.24. Target: 120.89.
+[2023-10-22 21:52:15,490][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:15,490][INFO] Diff. Sum: 7.35. Max: 3.29
+[2023-10-22 21:52:15,516][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:15,519][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:15,522][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:15,539][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:15,542][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:15,545][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:15,553][INFO] Id : 21. Target required : 1009. Target real : 1000
+[2023-10-22 21:52:15,556][INFO] Id : 21. Target required : 1009. Target real : 1000
+[2023-10-22 21:52:15,559][INFO] Id : 21. Target required : 1009. Target real : 1000
+[2023-10-22 21:52:15,881][INFO] Angle leg1_alpha. Diff:  0.14. Current: 79.2. Target: 79.34.
+[2023-10-22 21:52:15,882][INFO] Angle  leg1_beta. Diff:  4.57. Current: 117.6. Target: 122.17.
+[2023-10-22 21:52:15,882][INFO] Angle leg1_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:15,882][INFO] Angle leg2_alpha. Diff:  0.46. Current: 45.6. Target: 46.06.
+[2023-10-22 21:52:15,882][INFO] Angle  leg2_beta. Diff: -0.70. Current: 113.04. Target: 112.34.
+[2023-10-22 21:52:15,882][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:15,882][INFO] Angle leg3_alpha. Diff:  0.40. Current: 99.12. Target: 99.52.
+[2023-10-22 21:52:15,883][INFO] Angle  leg3_beta. Diff:  1.04. Current: 114.48. Target: 115.52.
+[2023-10-22 21:52:15,883][INFO] Angle leg3_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:15,883][INFO] Angle leg4_alpha. Diff:  0.62. Current: 78.72. Target: 79.34.
+[2023-10-22 21:52:15,883][INFO] Angle  leg4_beta. Diff:  1.69. Current: 120.48. Target: 122.17.
+[2023-10-22 21:52:15,883][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:15,883][INFO] Diff. Sum: 10.82. Max: 4.57
+[2023-10-22 21:52:15,909][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:15,912][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:15,915][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:15,932][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:15,935][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:15,938][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:16,639][INFO] Angle leg1_alpha. Diff: -0.34. Current: 79.68. Target: 79.34.
+[2023-10-22 21:52:16,640][INFO] Angle  leg1_beta. Diff:  4.57. Current: 117.6. Target: 122.17.
+[2023-10-22 21:52:16,640][INFO] Angle leg1_tetta. Diff:  0.96. Current: -0.96. Target: 0.0.
+[2023-10-22 21:52:16,640][INFO] Angle leg2_alpha. Diff: -0.22. Current: 85.2. Target: 84.98.
+[2023-10-22 21:52:16,641][INFO] Angle  leg2_beta. Diff: -0.87. Current: 102.24. Target: 101.37.
+[2023-10-22 21:52:16,641][INFO] Angle leg2_tetta. Diff:  0.96. Current: -0.96. Target: 0.0.
+[2023-10-22 21:52:16,641][INFO] Angle leg3_alpha. Diff:  0.40. Current: 99.12. Target: 99.52.
+[2023-10-22 21:52:16,642][INFO] Angle  leg3_beta. Diff:  1.52. Current: 114.0. Target: 115.52.
+[2023-10-22 21:52:16,642][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:52:16,642][INFO] Angle leg4_alpha. Diff:  0.06. Current: 87.84. Target: 87.9.
+[2023-10-22 21:52:16,643][INFO] Angle  leg4_beta. Diff:  0.00. Current: 80.88. Target: 80.88.
+[2023-10-22 21:52:16,643][INFO] Angle leg4_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:52:16,643][INFO] Diff. Sum: 10.38. Max: 4.57
+[2023-10-22 21:52:16,671][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:16,675][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:16,678][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:16,696][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:16,700][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:16,703][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:16,983][INFO] Angle leg1_alpha. Diff: -0.34. Current: 79.68. Target: 79.34.
+[2023-10-22 21:52:16,983][INFO] Angle  leg1_beta. Diff:  4.33. Current: 117.84. Target: 122.17.
+[2023-10-22 21:52:16,983][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:16,984][INFO] Angle leg2_alpha. Diff: -0.08. Current: 99.6. Target: 99.52.
+[2023-10-22 21:52:16,984][INFO] Angle  leg2_beta. Diff:  0.56. Current: 114.96. Target: 115.52.
+[2023-10-22 21:52:16,984][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:16,985][INFO] Angle leg3_alpha. Diff:  0.16. Current: 99.36. Target: 99.52.
+[2023-10-22 21:52:16,985][INFO] Angle  leg3_beta. Diff:  1.52. Current: 114.0. Target: 115.52.
+[2023-10-22 21:52:16,985][INFO] Angle leg3_tetta. Diff: -0.48. Current: 0.48. Target: 0.0.
+[2023-10-22 21:52:16,985][INFO] Angle leg4_alpha. Diff:  0.64. Current: 101.52. Target: 102.16.
+[2023-10-22 21:52:16,986][INFO] Angle  leg4_beta. Diff:  1.19. Current: 93.12. Target: 94.31.
+[2023-10-22 21:52:16,986][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:16,986][INFO] Diff. Sum: 10.50. Max: 4.33
+[2023-10-22 21:52:17,032][INFO] Id : 15. Target required : 1034. Target real : 1000
+[2023-10-22 21:52:17,036][INFO] Id : 15. Target required : 1034. Target real : 1000
+[2023-10-22 21:52:17,039][INFO] Id : 15. Target required : 1034. Target real : 1000
+[2023-10-22 21:52:17,642][INFO] Angle leg1_alpha. Diff:  0.22. Current: 45.84. Target: 46.06.
+[2023-10-22 21:52:17,643][INFO] Angle  leg1_beta. Diff: -0.94. Current: 113.28. Target: 112.34.
+[2023-10-22 21:52:17,644][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:17,644][INFO] Angle leg2_alpha. Diff:  0.14. Current: 79.2. Target: 79.34.
+[2023-10-22 21:52:17,645][INFO] Angle  leg2_beta. Diff:  0.01. Current: 122.16. Target: 122.17.
+[2023-10-22 21:52:17,645][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:17,646][INFO] Angle leg3_alpha. Diff:  0.86. Current: 78.48. Target: 79.34.
+[2023-10-22 21:52:17,646][INFO] Angle  leg3_beta. Diff:  7.45. Current: 114.72. Target: 122.17.
+[2023-10-22 21:52:17,647][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:52:17,648][INFO] Angle leg4_alpha. Diff:  0.40. Current: 99.12. Target: 99.52.
+[2023-10-22 21:52:17,648][INFO] Angle  leg4_beta. Diff: -0.16. Current: 115.68. Target: 115.52.
+[2023-10-22 21:52:17,649][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:17,649][INFO] Diff. Sum: 11.62. Max: 7.45
+[2023-10-22 21:52:18,096][INFO] Angle leg1_alpha. Diff:  1.00. Current: 66.48. Target: 67.48.
+[2023-10-22 21:52:18,097][INFO] Angle  leg1_beta. Diff: -2.30. Current: 109.68. Target: 107.38.
+[2023-10-22 21:52:18,097][INFO] Angle leg1_tetta. Diff:  1.20. Current: -1.2. Target: 0.0.
+[2023-10-22 21:52:18,097][INFO] Angle leg2_alpha. Diff:  0.14. Current: 79.2. Target: 79.34.
+[2023-10-22 21:52:18,098][INFO] Angle  leg2_beta. Diff:  0.49. Current: 121.68. Target: 122.17.
+[2023-10-22 21:52:18,098][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:18,098][INFO] Angle leg3_alpha. Diff:  0.50. Current: 84.48. Target: 84.98.
+[2023-10-22 21:52:18,099][INFO] Angle  leg3_beta. Diff: -1.83. Current: 103.2. Target: 101.37.
+[2023-10-22 21:52:18,099][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:52:18,099][INFO] Angle leg4_alpha. Diff: -0.08. Current: 99.6. Target: 99.52.
+[2023-10-22 21:52:18,100][INFO] Angle  leg4_beta. Diff:  0.80. Current: 114.72. Target: 115.52.
+[2023-10-22 21:52:18,100][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:18,100][INFO] Diff. Sum: 9.06. Max: 2.30
+[2023-10-22 21:52:18,129][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:18,132][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:18,136][INFO] Id : 3. Target required : 1019. Target real : 1000
+[2023-10-22 21:52:18,154][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:18,157][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:18,160][INFO] Id : 15. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:18,453][INFO] Angle leg1_alpha. Diff:  0.62. Current: 78.72. Target: 79.34.
+[2023-10-22 21:52:18,454][INFO] Angle  leg1_beta. Diff:  4.33. Current: 117.84. Target: 122.17.
+[2023-10-22 21:52:18,454][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:18,454][INFO] Angle leg2_alpha. Diff: -0.58. Current: 79.92. Target: 79.34.
+[2023-10-22 21:52:18,454][INFO] Angle  leg2_beta. Diff: -0.47. Current: 122.64. Target: 122.17.
+[2023-10-22 21:52:18,455][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:18,455][INFO] Angle leg3_alpha. Diff:  0.40. Current: 99.12. Target: 99.52.
+[2023-10-22 21:52:18,455][INFO] Angle  leg3_beta. Diff:  1.28. Current: 114.24. Target: 115.52.
+[2023-10-22 21:52:18,456][INFO] Angle leg3_tetta. Diff: -0.24. Current: 0.24. Target: 0.0.
+[2023-10-22 21:52:18,456][INFO] Angle leg4_alpha. Diff: -0.08. Current: 99.6. Target: 99.52.
+[2023-10-22 21:52:18,456][INFO] Angle  leg4_beta. Diff:  0.80. Current: 114.72. Target: 115.52.
+[2023-10-22 21:52:18,457][INFO] Angle leg4_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:18,457][INFO] Diff. Sum: 10.00. Max: 4.33
+[2023-10-22 21:52:18,485][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:18,489][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:18,492][INFO] Id : 3. Target required : 1006. Target real : 1000
+[2023-10-22 21:52:18,510][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:52:18,513][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:52:18,516][INFO] Id : 15. Target required : 1028. Target real : 1000
+[2023-10-22 21:52:18,526][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:18,529][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:18,532][INFO] Id : 21. Target required : 1003. Target real : 1000
+[2023-10-22 21:52:18,837][INFO] Angle leg1_alpha. Diff:  0.39. Current: 63.12. Target: 63.51.
+[2023-10-22 21:52:18,838][INFO] Angle  leg1_beta. Diff:  1.37. Current: 117.84. Target: 119.21.
+[2023-10-22 21:52:18,838][INFO] Angle leg1_tetta. Diff:  0.48. Current: -0.48. Target: 0.0.
+[2023-10-22 21:52:18,838][INFO] Angle leg2_alpha. Diff: -0.33. Current: 63.84. Target: 63.51.
+[2023-10-22 21:52:18,839][INFO] Angle  leg2_beta. Diff:  0.17. Current: 119.04. Target: 119.21.
+[2023-10-22 21:52:18,839][INFO] Angle leg2_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:18,839][INFO] Angle leg3_alpha. Diff:  0.27. Current: 91.44. Target: 91.71.
+[2023-10-22 21:52:18,839][INFO] Angle  leg3_beta. Diff:  5.93. Current: 114.96. Target: 120.89.
+[2023-10-22 21:52:18,840][INFO] Angle leg3_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:18,840][INFO] Angle leg4_alpha. Diff:  0.03. Current: 91.68. Target: 91.71.
+[2023-10-22 21:52:18,840][INFO] Angle  leg4_beta. Diff:  0.89. Current: 120.0. Target: 120.89.
+[2023-10-22 21:52:18,841][INFO] Angle leg4_tetta. Diff:  0.24. Current: -0.24. Target: 0.0.
+[2023-10-22 21:52:18,841][INFO] Diff. Sum: 10.58. Max: 5.93
