@@ -66,23 +66,25 @@ class HHKinematics:
         return sequence
 
     def initiate_legs(self):
+        x_start = -2
+        x_delta_front = 5
         O1 = Point(0, 0, cfg.start.vertical)
-        C1 = Point(0, -cfg.leg.d, 0)
+        C1 = Point(x_start + x_delta_front, -cfg.leg.d, 0)
         self.logger.info('[Init] Initiating leg 1')
         Leg1 = Leg(O1, C1)
 
         O2 = Point(0, 0, cfg.start.vertical)
-        C2 = Point(0, -cfg.leg.d, 0)
+        C2 = Point(x_start + x_delta_front, -cfg.leg.d, 0)
         self.logger.info('[Init] Initiating leg 2')
         Leg2 = Leg(O2, C2)
 
         O3 = Point(0, 0, cfg.start.vertical)
-        C3 = Point(0, -cfg.leg.d, 0)
+        C3 = Point(x_start, -cfg.leg.d, 0)
         self.logger.info('[Init] Initiating leg 3')
         Leg3 = Leg(O3, C3)
 
         O4 = Point(0, 0, cfg.start.vertical)
-        C4 = Point(0, -cfg.leg.d, 0)
+        C4 = Point(x_start, -cfg.leg.d, 0)
         self.logger.info('[Init] Initiating leg 4')
         Leg4 = Leg(O4, C4)
 
@@ -90,12 +92,11 @@ class HHKinematics:
 
         return {1: Leg1, 2: Leg2, 3: Leg3, 4: Leg4}
 
-    def leg_movement(self, leg_num, leg_delta):
+    def _leg_movement(self, leg_num, leg_delta):
         self.logger.info(f'Move. Leg {leg_num} for {leg_delta}')
         leg = self.legs[leg_num]
 
         leg.move_end_point(leg_delta[0], leg_delta[1], leg_delta[2])
-        self.add_angles_snapshot('endpoint')
 
     def body_movement(self, delta_x, delta_y, delta_z, snapshot=True):
         self.logger.info(f'Body movement [{delta_x}, {delta_y}, {delta_z}]')
@@ -108,6 +109,28 @@ class HHKinematics:
 
         if snapshot:
             self.add_angles_snapshot('body')
+    
+    def move_forward(self, legs_up_value, legs_forward_value):
+        up_move = [-legs_forward_value, 0, -legs_up_value]
+        down_move = [0, 0, legs_up_value]
+        for leg_num in [1, 3]:
+            self._leg_movement(leg_num, up_move)
+        self.add_angles_snapshot('endpoint')
+        for leg_num in [1, 3]:
+            self._leg_movement(leg_num, down_move)
+        self.add_angles_snapshot('endpoint')
+
+        self.body_movement(-legs_forward_value/2, 0, 0)
+
+        for leg_num in [2, 4]:
+            self._leg_movement(leg_num, up_move)
+        self.add_angles_snapshot('endpoint')
+        for leg_num in [2, 4]:
+            self._leg_movement(leg_num, down_move)
+        self.add_angles_snapshot('endpoint')
+
+        self.body_movement(-legs_forward_value/2, 0, 0)
+       
 
 
 if __name__ == '__main__':
