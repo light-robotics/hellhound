@@ -156,7 +156,10 @@ class HTD45H:
     # because sometimes command does not work and target stays unchanged
     def move_servo_to_angle(self, id: int, angle: float, rate: int = 0) -> None:
         #self.logger.info(f'move_servo_to_angle {id} : {angle} / {rate}')
-        position = max(neutral[id] + int(angle/0.24), 0)
+        #position = max(neutral[id] + int(angle/0.24), 0)
+        position = neutral[id] + int(angle/0.24)
+        if position > 1000 or position < 0:
+            raise ValueError(f'Id: {id}. Position: {position}. angle: {angle}')
         num_attempts = 3
         for i in range(num_attempts):
             try:

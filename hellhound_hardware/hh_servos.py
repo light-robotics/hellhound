@@ -257,7 +257,7 @@ class HellHoundServos:
 
 if __name__ == '__main__':
     hh = HellHoundServos()
-    hh.set_speed(500)
+    hh.set_speed(1000)
         
     angles = {
         'leg1_tetta': 0.0, 
@@ -275,8 +275,10 @@ if __name__ == '__main__':
     }
 
     hh_kin = HHKinematics()
-    hh_kin.move_forward(2, 5)
-    print(hh_kin.sequence)
+    hh_kin.move_forward(4, 4)
+    #hh_kin.test_leg_up(4)
+    #hh_kin.test_leg_up_1(10, 7)
+    #print(hh_kin.sequence)
 
     for item in hh_kin.sequence:
         hh.set_servo_values_paced_wo_feedback(item.angles_snapshot)
