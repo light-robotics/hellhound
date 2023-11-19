@@ -30,11 +30,12 @@ if __name__ == '__main__':
     m3.move_servo_to_angle(21, beta1, spd)
     m4.move_servo_to_angle(3, beta1, spd)
     m1.move_servo_to_angle(9, beta1, spd)
+    time.sleep(1.2)
     """
 
     
-    gamma1, alpha1, beta1 = get_leg_angles(2, 5, 27)
-    gamma2, alpha2, beta2 = get_leg_angles(2, 5, 20)
+    gamma1, alpha1, beta1 = get_leg_angles(0, 5, 27)
+    gamma2, alpha2, beta2 = get_leg_angles(0, 5, 12)
 
     # time.sleep(2.0)
     
