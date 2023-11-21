@@ -109,12 +109,70 @@ class HHKinematics:
 
         if snapshot:
             self.add_angles_snapshot('body')
-    
+
+    def move_forward_one_legged(self, legs_up_value, legs_forward_value):
+        up_move = [legs_forward_value, 0, legs_up_value]
+        down_move = [0, 0, -legs_up_value]
+
+        self._leg_movement(1, up_move)
+        self.add_angles_snapshot('endpoint')
+        self._leg_movement(1, down_move)
+        self.add_angles_snapshot('endpoint')
+
+        self._leg_movement(3, up_move)
+        self.add_angles_snapshot('endpoint')
+        self._leg_movement(3, down_move)
+        self.add_angles_snapshot('endpoint')
+
+        self.body_movement(0.5 * legs_forward_value, 0, 0)
+
+        self._leg_movement(2, up_move)
+        self.add_angles_snapshot('endpoint')
+        self._leg_movement(2, down_move)
+        self.add_angles_snapshot('endpoint')
+
+        self._leg_movement(4, up_move)
+        self.add_angles_snapshot('endpoint')
+        self._leg_movement(4, down_move)
+        self.add_angles_snapshot('endpoint')
+
+        self.body_movement(0.5 * legs_forward_value, 0, 0)
+
+    def move_forward_2(self, legs_up_value, legs_forward_value):
+        up_move = [legs_forward_value, 0, legs_up_value]
+        up_move_2 = [2*legs_forward_value, 0, legs_up_value]
+        down_move = [0, 0, -legs_up_value]
+
+        for leg_num in [1, 3]:
+            self._leg_movement(leg_num, up_move)
+        self.add_angles_snapshot('endpoint')
+        for leg_num in [1, 3]:
+            self._leg_movement(leg_num, down_move)
+        self.add_angles_snapshot('endpoint')
+
+        self.body_movement(legs_forward_value, 0, 0)
+
+        for leg_num in [2, 4]:
+            self._leg_movement(leg_num, up_move_2)
+        self.add_angles_snapshot('endpoint')
+        for leg_num in [2, 4]:
+            self._leg_movement(leg_num, down_move)
+        self.add_angles_snapshot('endpoint')
+
+        self.body_movement(legs_forward_value, 0, 0)
+
+        for leg_num in [1, 3]:
+            self._leg_movement(leg_num, up_move)
+        self.add_angles_snapshot('endpoint')
+        for leg_num in [1, 3]:
+            self._leg_movement(leg_num, down_move)
+        self.add_angles_snapshot('endpoint')
+
     def move_forward(self, legs_up_value, legs_forward_value):
         up_move = [legs_forward_value, 0, legs_up_value]
         up_move_2 = [2*legs_forward_value, 0, legs_up_value]
         back_move = [-legs_forward_value, 0, 0]
-        back_move_2 = [2*legs_forward_value, 0, 0]
+        back_move_2 = [-2*legs_forward_value, 0, 0]
         down_move = [0, 0, -legs_up_value]
         for leg_num in [1, 3]:
             self._leg_movement(leg_num, up_move)
@@ -124,29 +182,32 @@ class HHKinematics:
         self.add_angles_snapshot('endpoint')
 
         #self.body_movement(-legs_forward_value/2, 0, 0)
-        return
+        
 
         for leg_num in [2, 4]:
             self._leg_movement(leg_num, up_move_2)
-        
-        self.add_angles_snapshot('endpoint')
-        for leg_num in [2, 4]:
-            self._leg_movement(leg_num, down_move)
-        self.add_angles_snapshot('endpoint')
+        # self.add_angles_snapshot('endpoint')
+
         for leg_num in [1, 3]:
             self._leg_movement(leg_num, back_move_2)
         self.add_angles_snapshot('endpoint')
-
-        #self.body_movement(-legs_forward_value/2, 0, 0)
-        #self.body_movement(-legs_forward_value/2, 0, 0)
-
-        for leg_num in [1, 3]:
-            self._leg_movement(leg_num, up_move)
         
-        self.add_angles_snapshot('endpoint')
-        for leg_num in [1, 3]:
+        
+        for leg_num in [2, 4]:
             self._leg_movement(leg_num, down_move)
         self.add_angles_snapshot('endpoint')
+
+
+        #self.body_movement(-legs_forward_value/2, 0, 0)
+        #self.body_movement(-legs_forward_value/2, 0, 0)
+
+        for leg_num in [1, 3]:
+            self._leg_movement(leg_num, up_move)      
+        self.add_angles_snapshot('endpoint')
+
+        for leg_num in [1, 3]:
+            self._leg_movement(leg_num, down_move)
+        #self.add_angles_snapshot('endpoint')
         for leg_num in [2, 4]:
             self._leg_movement(leg_num, back_move_2)
         self.add_angles_snapshot('endpoint')
@@ -154,21 +215,29 @@ class HHKinematics:
         #self.body_movement(-legs_forward_value/2, 0, 0)
 
     def test_leg_up(self, leg_up_value):
-        for leg_num in [1, 2, 3, 4]:
+        for leg_num in [1, 3]:
             self._leg_movement(leg_num, [0, 0, leg_up_value])
-            self.add_angles_snapshot('endpoint')
+        self.add_angles_snapshot('endpoint')
+        for leg_num in [1, 3]:
             self._leg_movement(leg_num, [0, 0, -leg_up_value])
-            self.add_angles_snapshot('endpoint')
+        self.add_angles_snapshot('endpoint')
+        
+        for leg_num in [2, 4]:
+            self._leg_movement(leg_num, [0, 0, leg_up_value])
+        self.add_angles_snapshot('endpoint')
+        for leg_num in [2, 4]:
+            self._leg_movement(leg_num, [0, 0, -leg_up_value])
+        self.add_angles_snapshot('endpoint')
 
-    def test_leg_up_1(self, leg_up_value, move_body_value):
-        self.body_movement(0, move_body_value, 0)
+    def test_leg_up_1(self, leg_up_value, move_body_side, move_body_forward):
+        self.body_movement(-move_body_forward, move_body_side, 0)
         leg_num = 1
         self._leg_movement(leg_num, [0, 0, leg_up_value])
         self.add_angles_snapshot('endpoint')
         #return
         self._leg_movement(leg_num, [0, 0, -leg_up_value])
         self.add_angles_snapshot('endpoint')
-        self.body_movement(0, -move_body_value, 0)
+        self.body_movement(move_body_forward, -move_body_side, 0)
 
 
 

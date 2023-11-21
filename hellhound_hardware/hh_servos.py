@@ -220,9 +220,31 @@ class HellHoundServos:
         
         self.send_command_to_servos(angles, rate)
         #self.logger.info(f'Command sent. Rate: {rate}, angles: {angles}')
-        time.sleep(rate*1.5 / 1000)
+        #time.sleep(rate*1.5 / 1000)
+        time.sleep(rate*1.1 / 1000)
 
         #self.logger.info('Function set_servo_values_paced_wo_feedback')
+        self.log_movement_result(angles)
+    
+    def set_servo_values_paced_sd_wof(self, angles):
+        """
+        slow down
+        without feedback
+        """
+        diff, max_angle_diff = self.get_angles_diff(angles)
+        rate = round(max(self.speed * max_angle_diff / 45, self.max_speed)) # speed is normalized
+        #self.logger.info(f'max_angle_diff: {max_angle_diff}, self.speed : {self.speed}, self.speed * max_angle_diff / 45 : {self.speed * max_angle_diff / 45}')
+        
+        partly_angles = {}
+        for k, v in angles.items():
+            partly_angles[k] = v - 0.4 * diff[k]
+
+        self.send_command_to_servos(partly_angles, rate)
+        time.sleep(rate*0.8 / 1000)
+
+        self.send_command_to_servos(angles, 2*rate)
+        time.sleep(rate*3 / 1000)
+
         self.log_movement_result(angles)
     
     def paced_wof_overshoot(self, angles):
@@ -257,7 +279,7 @@ class HellHoundServos:
 
 if __name__ == '__main__':
     hh = HellHoundServos()
-    hh.set_speed(1000)
+    #hh.set_speed(150)
         
     angles = {
         'leg1_tetta': 0.0, 
@@ -274,14 +296,21 @@ if __name__ == '__main__':
         'leg4_beta': 90.0,
     }
 
+    time.sleep(2)
     hh_kin = HHKinematics()
-    hh_kin.move_forward(4, 4)
+    #hh_kin.move_forward_2(3, 4)
+    #hh_kin.move_forward(5, 4)
     #hh_kin.test_leg_up(4)
-    #hh_kin.test_leg_up_1(10, 7)
-    #print(hh_kin.sequence)
+    #hh_kin.test_leg_up_1(10, 7, 2)
+    hh_kin.move_forward_one_legged(6, 8)
 
     for item in hh_kin.sequence:
-        hh.set_servo_values_paced_wo_feedback(item.angles_snapshot)
+        #hh.set_servo_values_paced_wo_feedback(item.angles_snapshot)
+        if item.move_type == 'body':
+            hh.set_speed(400)
+        else:
+            hh.set_speed(250)
+        hh.set_servo_values_paced_sd_wof(item.angles_snapshot)
     
     #sequence = [[0.0, 60.0, 100.0, -10.0, 0.0, 60.0, 100.0, -10.0, 0.0, 60.0, 100.0, -10.0, 0.0, 60.0, 100.0, -10.0]]
         
