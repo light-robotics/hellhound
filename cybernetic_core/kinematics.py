@@ -238,7 +238,10 @@ class HHKinematics:
         self._leg_movement(leg_num, [0, 0, -leg_up_value])
         self.add_angles_snapshot('endpoint')
         self.body_movement(move_body_forward, -move_body_side, 0)
-
+    
+    def jump(self, jump_value):
+        self.body_movement(0, 0, jump_value)
+        self.body_movement(0, 0, -jump_value)
 
 
 if __name__ == '__main__':

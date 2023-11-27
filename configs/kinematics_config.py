@@ -5,6 +5,6 @@ class leg:
     d2 = 4.5
 
 class start:
-    vertical = 22
-    x_start = -4
+    vertical = 17 #22
+    x_start = -6 # forward: < 0
     front_x_delta = 4
