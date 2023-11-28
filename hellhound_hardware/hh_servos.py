@@ -300,20 +300,25 @@ if __name__ == '__main__':
     time.sleep(2)
     hh_kin = HHKinematics()
     #hh_kin.jump(8)
-    hh_kin.move_forward_2(2, 4)
+    hh_kin.move_forward_2(2, 4) # 1000 - 150
     #hh_kin.move_forward(5, 4)
     #hh_kin.test_leg_up(4)
-    #hh_kin.test_leg_up_1(10, 7, 2)
+    #hh_kin.test_leg_up_1(10, 10, 7)
     #hh_kin.move_forward_one_legged(4, 4)
+    #hh_kin.forward_jump()
+    #hh_kin.test_leg_fwd_1(15, 10, 7, 14) # 1000 - 500
 
     for item in hh_kin.sequence:
         if item.move_type == 'body':
             hh.set_speed(1000)
+            sleep = False
         else:
-            hh.set_speed(100)
+            hh.set_speed(150)
+            sleep = False
         #hh.set_servo_values_paced_sd_wof(item.angles_snapshot)
         hh.set_servo_values_paced_wo_feedback(item.angles_snapshot)
-        time.sleep(0.05)
+        if sleep:
+            time.sleep(0.1)
     
     #sequence = [[0.0, 60.0, 100.0, -10.0, 0.0, 60.0, 100.0, -10.0, 0.0, 60.0, 100.0, -10.0, 0.0, 60.0, 100.0, -10.0]]
         
