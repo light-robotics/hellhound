@@ -282,23 +282,10 @@ if __name__ == '__main__':
     hh = HellHoundServos()
     #hh.set_speed(150)
         
-    angles = {
-        'leg1_tetta': 0.0, 
-        'leg1_alpha': 60.0, 
-        'leg1_beta': 90.0,
-        'leg2_tetta': 0.0, 
-        'leg2_alpha': 60.0, 
-        'leg2_beta': 90.0,
-        'leg3_tetta': 0.0, 
-        'leg3_alpha': 60.0, 
-        'leg3_beta': 90.0, 
-        'leg4_tetta': 0.0, 
-        'leg4_alpha': 60.0, 
-        'leg4_beta': 90.0,
-    }
-
     time.sleep(2)
     hh_kin = HHKinematics()
+    #hh_kin.body_movement(0, 0, 15)
+    #hh_kin.body_movement(0, 0, -15)
     #hh_kin.jump(8)
     hh_kin.move_forward_2(2, 4) # 1000 - 150
     #hh_kin.move_forward(5, 4)
@@ -313,7 +300,7 @@ if __name__ == '__main__':
             hh.set_speed(1000)
             sleep = False
         else:
-            hh.set_speed(150)
+            hh.set_speed(350)
             sleep = False
         #hh.set_servo_values_paced_sd_wof(item.angles_snapshot)
         hh.set_servo_values_paced_wo_feedback(item.angles_snapshot)

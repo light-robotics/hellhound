@@ -11,6 +11,13 @@ if __name__ == '__main__':
     m3 = HTD45H(Port='/dev/ttyAMA3') # 13-18
     m4 = HTD45H(Port='/dev/ttyAMA1') # 19-24
     
+    alpha1 = 110
+    spd = 2000
+    #m2.move_servo_to_angle(16, alpha1, spd)
+    #m3.move_servo_to_angle(22, alpha1, spd)
+    #m4.move_servo_to_angle(4, alpha1, spd)
+    m1.move_servo_to_angle(10, alpha1, spd)
+
     """
     spd = 1000
     alpha1 = 0
@@ -33,7 +40,7 @@ if __name__ == '__main__':
     time.sleep(1.2)
     """
 
-    
+    """
     gamma1, alpha1, beta1 = get_leg_angles(0, 5, 27)
     gamma2, alpha2, beta2 = get_leg_angles(0, 5, 12)
 
@@ -75,7 +82,7 @@ if __name__ == '__main__':
     m1.move_servo_to_angle(9, beta2, spd)
 
     time.sleep(1)
-    
+    """
 
     """
     time.sleep(0.3)
