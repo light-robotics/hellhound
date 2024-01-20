@@ -12,8 +12,6 @@ angles_log_file = os.path.join(project_dir, 'logs', 'angles.log')
 
 movement_command_file = os.path.join(project_dir, 'commands', 'movement_command.txt')
 side_movement_command_file = os.path.join(project_dir, 'commands', 'side_movement_command.txt')
-wheels_command_file = os.path.join(project_dir, 'commands', 'wheels_command.txt')
-side_wheels_command_file = os.path.join(project_dir, 'commands', 'side_wheels_command.txt')
 neopixel_command_file = os.path.join(project_dir, 'commands', 'neopixel_command.txt')
 
 lidar_data_file = os.path.join(project_dir, 'data', 'lidar_data.log')

@@ -110,6 +110,32 @@ class HHKinematics:
         if snapshot:
             self.add_angles_snapshot('body')
 
+    """
+    Two phased moves
+    """
+    # phased 2-legged movement
+    def move_2_legs_phased_13(self, delta_x: int = 0, delta_y: int = 0) -> None:
+        self.body_movement(round(delta_x / 2, 1), round(delta_y / 2, 1), 0)
+
+        for leg in [self.legs[1], self.legs[3]]:
+            leg.move_end_point(delta_x, delta_y, cfg.leg_up[2])
+        self.add_angles_snapshot('endpoints')
+
+        for leg in [self.legs[1], self.legs[3]]:
+            leg.move_end_point(0, 0, -cfg.leg_up[2])
+        self.add_angles_snapshot('endpoints')
+        
+    def move_2_legs_phased_24(self, delta_x: int = 0, delta_y: int = 0) -> None:
+        self.body_movement(round(delta_x / 2, 1), round(delta_y / 2, 1), 0)
+
+        for leg in [self.legs[2], self.legs[4]]:
+            leg.move_end_point(delta_x, delta_y, cfg.leg_up[2])
+        self.add_angles_snapshot('endpoints')
+
+        for leg in [self.legs[2], self.legs[4]]:
+            leg.move_end_point(0, 0, -cfg.leg_up[2])
+        self.add_angles_snapshot('endpoints')
+
     def move_forward_one_legged(self, legs_up_value, legs_forward_value):
         up_move = [legs_forward_value, 0, legs_up_value]
         down_move = [0, 0, -legs_up_value]

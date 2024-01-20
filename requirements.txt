@@ -1,1 +1,2 @@
 pyserial==3.4
+pyPS4Controller==1.2.5

@@ -287,20 +287,20 @@ if __name__ == '__main__':
     #hh_kin.body_movement(0, 0, 15)
     #hh_kin.body_movement(0, 0, -15)
     #hh_kin.jump(8)
-    hh_kin.move_forward_2(2, 4) # 1000 - 150
+    hh_kin.move_forward_2(3, 5) # 2000 - 200
     #hh_kin.move_forward(5, 4)
     #hh_kin.test_leg_up(4)
     #hh_kin.test_leg_up_1(10, 10, 7)
     #hh_kin.move_forward_one_legged(4, 4)
     #hh_kin.forward_jump()
-    #hh_kin.test_leg_fwd_1(15, 10, 7, 14) # 1000 - 500
+    #hh_kin.test_leg_fwd_1(15, 10, 7, 14) # 1000 - 500 / 30, -8, 12, 4
 
     for item in hh_kin.sequence:
         if item.move_type == 'body':
-            hh.set_speed(1000)
+            hh.set_speed(1500)
             sleep = False
         else:
-            hh.set_speed(350)
+            hh.set_speed(300)
             sleep = False
         #hh.set_servo_values_paced_sd_wof(item.angles_snapshot)
         hh.set_servo_values_paced_wo_feedback(item.angles_snapshot)
