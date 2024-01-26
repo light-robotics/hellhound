@@ -1,6 +1,7 @@
 import logging.config
 import sys
 import os
+import copy
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import configs.code_config as code_config
@@ -54,6 +55,12 @@ class HHKinematics:
         }
 
         self.angles_history.append(MoveSnapshot(move_type, angles))
+
+    def save_state(self):
+        self.legs_backup = copy.deepcopy(self.legs)
+
+    def load_state(self):
+        self.legs = self.legs_backup
 
     def reset_history(self):
         self.angles_history = []
@@ -118,22 +125,22 @@ class HHKinematics:
         self.body_movement(round(delta_x / 2, 1), round(delta_y / 2, 1), 0)
 
         for leg in [self.legs[1], self.legs[3]]:
-            leg.move_end_point(delta_x, delta_y, cfg.leg_up[2])
+            leg.move_end_point(delta_x, delta_y, cfg.moves.leg_up[2])
         self.add_angles_snapshot('endpoints')
 
         for leg in [self.legs[1], self.legs[3]]:
-            leg.move_end_point(0, 0, -cfg.leg_up[2])
+            leg.move_end_point(0, 0, -cfg.moves.leg_up[2])
         self.add_angles_snapshot('endpoints')
         
     def move_2_legs_phased_24(self, delta_x: int = 0, delta_y: int = 0) -> None:
         self.body_movement(round(delta_x / 2, 1), round(delta_y / 2, 1), 0)
 
         for leg in [self.legs[2], self.legs[4]]:
-            leg.move_end_point(delta_x, delta_y, cfg.leg_up[2])
+            leg.move_end_point(delta_x, delta_y, cfg.moves.leg_up[2])
         self.add_angles_snapshot('endpoints')
 
         for leg in [self.legs[2], self.legs[4]]:
-            leg.move_end_point(0, 0, -cfg.leg_up[2])
+            leg.move_end_point(0, 0, -cfg.moves.leg_up[2])
         self.add_angles_snapshot('endpoints')
 
     def move_forward_one_legged(self, legs_up_value, legs_forward_value):

@@ -15,6 +15,7 @@ import logging.config
 logging.config.dictConfig(code_config.logger_config)
 
 from cybernetic_core.kinematics import HHKinematics
+from hardware.htd45h import AngleOutOfBoundsException
 
 
 servos_to_angles_mapping = {
@@ -123,10 +124,19 @@ class HellHoundServos:
         return angles_diff, max_angle_diff
 
     def set_servo_values_paced_full_adjustment(self, angles):
-        _, max_angle_diff = self.get_angles_diff(angles)
-        rate = round(max(self.speed * max_angle_diff / 45, self.max_speed)) # speed is normalized
-        #self.logger.info(f'max_angle_diff: {max_angle_diff}, self.speed : {self.speed}, self.speed * max_angle_diff / 45 : {self.speed * max_angle_diff / 45}')
-        prev_angles = self.get_current_angles()
+        try:
+            _, max_angle_diff = self.get_angles_diff(angles)
+            rate = round(max(self.speed * max_angle_diff / 45, self.max_speed)) # speed is normalized
+            prev_angles = self.get_current_angles()
+        except AngleOutOfBoundsException:
+            rate = 2000
+            prev_angles = {
+                'leg1_alpha': 0, 'leg1_beta': 0, 'leg1_tetta': 0, 
+                'leg2_alpha': 0, 'leg2_beta': 0, 'leg2_tetta': 0, 
+                'leg3_alpha': 0, 'leg3_beta': 0, 'leg3_tetta': 0, 
+                'leg4_alpha': 0, 'leg4_beta': 0, 'leg4_tetta': 0
+            }
+        
 
         self.send_command_to_servos(angles, rate)
         #self.logger.info(f'Command sent. Rate: {rate}, angles: {angles}')

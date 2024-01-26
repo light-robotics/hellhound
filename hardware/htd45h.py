@@ -55,6 +55,9 @@ neutral = {
     23 : 500,
 }
 
+class AngleOutOfBoundsException(Exception):
+    ...
+
 class HTD45H:
 
     LED_OFF = 1
@@ -423,7 +426,7 @@ class HTD45H:
             # if i > 1:
             #     self.reset()
             #     time.sleep(0.1)
-        raise Exception(f'Could not get correct angle from servo {id} in {num_attempts} attempts.')
+        raise AngleOutOfBoundsException(f'Could not get correct angle from servo {id} in {num_attempts} attempts.')
 
     # Motor movement with speed : motor_mode = 1 motor_speed = rate
     # Otherwise set servo mode  : motor_mode = 0 
