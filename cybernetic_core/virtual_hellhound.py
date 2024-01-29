@@ -9,6 +9,7 @@ UP_OR_DOWN_CM   = cfg.moves.up_down_cm
 FORWARD_BODY_CM = cfg.moves.move_body_cm
 FORWARD_LEGS_1LEG_CM = cfg.moves.fwd_body_1_leg_cm
 FORWARD_LEGS_2LEG_CM = cfg.moves.fwd_body_2_leg_cm
+SIDE_MOVE_2LEG_CM = cfg.moves.side_move_2_leg_cm
 
 
 class VirtualHH(HHKinematics):
@@ -36,6 +37,12 @@ class VirtualHH(HHKinematics):
         elif command == 'forward_32':
             # Legs 1 and 3 moved x1
             self.move_2_legs_phased_13(FORWARD_LEGS_2LEG_CM, 0)
+        elif command == 'right':
+            self.move_2_legs_phased_13(0, SIDE_MOVE_2LEG_CM)
+            self.move_2_legs_phased_24(0, SIDE_MOVE_2LEG_CM)
+        elif command == 'left':
+            self.move_2_legs_phased_13(0, -SIDE_MOVE_2LEG_CM)
+            self.move_2_legs_phased_24(0, -SIDE_MOVE_2LEG_CM)
         elif command == 'forward_one_legged':
             self.move_body_straight(FORWARD_LEGS_1LEG_CM, 0, [1, 4, 2, 3])
             #self.leg_move_with_compensation(2, 0, -FORWARD_LEGS_1LEG_CM)

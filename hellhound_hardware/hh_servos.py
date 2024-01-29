@@ -251,10 +251,10 @@ class HellHoundServos:
             partly_angles[k] = v - 0.4 * diff[k]
         """
         self.send_command_to_servos(angles, rate)
-        time.sleep(rate*0.7 / 1000)
+        time.sleep(rate*0.8 / 1000)
 
         self.send_command_to_servos(angles, 2*rate)
-        time.sleep(rate*2 / 1000)
+        time.sleep(rate*2.5 / 1000)
 
         self.log_movement_result(angles)
     

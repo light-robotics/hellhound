@@ -121,8 +121,13 @@ class HHKinematics:
     Two phased moves
     """
     # phased 2-legged movement
+    # side_incline_when_moving = 2
+
     def move_2_legs_phased_13(self, delta_x: int = 0, delta_y: int = 0) -> None:
-        self.body_movement(round(delta_x / 2, 1), round(delta_y / 2, 1), 0)
+        side_incline_when_moving = 0
+        if delta_y == 0:
+            side_incline_when_moving = 2
+        self.body_movement(round(delta_x / 2, 1), round(delta_y / 2, 1) + side_incline_when_moving, 0)
 
         for leg in [self.legs[1], self.legs[3]]:
             leg.move_end_point(delta_x, delta_y, cfg.moves.leg_up[2])
@@ -130,10 +135,14 @@ class HHKinematics:
 
         for leg in [self.legs[1], self.legs[3]]:
             leg.move_end_point(0, 0, -cfg.moves.leg_up[2])
+        self.body_movement(0, -side_incline_when_moving, 0, False)
         self.add_angles_snapshot('endpoints')
         
     def move_2_legs_phased_24(self, delta_x: int = 0, delta_y: int = 0) -> None:
-        self.body_movement(round(delta_x / 2, 1), round(delta_y / 2, 1), 0)
+        side_incline_when_moving = 0
+        if delta_y == 0:
+            side_incline_when_moving = 2
+        self.body_movement(round(delta_x / 2, 1), round(delta_y / 2, 1) - side_incline_when_moving, 0)
 
         for leg in [self.legs[2], self.legs[4]]:
             leg.move_end_point(delta_x, delta_y, cfg.moves.leg_up[2])
@@ -141,6 +150,7 @@ class HHKinematics:
 
         for leg in [self.legs[2], self.legs[4]]:
             leg.move_end_point(0, 0, -cfg.moves.leg_up[2])
+        self.body_movement(0, side_incline_when_moving, 0, False)
         self.add_angles_snapshot('endpoints')
 
     def move_forward_one_legged(self, legs_up_value, legs_forward_value):

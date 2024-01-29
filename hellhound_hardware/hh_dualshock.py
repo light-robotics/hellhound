@@ -133,16 +133,16 @@ class HellHoundDualShock(DualShock):
         pass
     
     def on_R3_up(self, value):
-        self.command_writer.write_command('forward_two_legged', 300)
+        self.command_writer.write_command('forward_two_legged', 200)
 
     def on_R3_down(self, value):
         pass
     
     def on_R3_left(self, value):
-        pass
+        self.command_writer.write_command('left', 200)
     
     def on_R3_right(self, value):
-        pass
+        self.command_writer.write_command('right', 200)
 
     def on_R3_press(self):
         pass

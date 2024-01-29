@@ -175,6 +175,8 @@ class MovementProcessor:
             'legs_up_down']:
             self.logger.info('Using function set_servo_values_paced_wo_feedback')
             return self.hhs.set_servo_values_paced_wo_feedback
+            #self.logger.info('Using function set_servo_values_paced_sd_wof')
+            #return self.hhs.set_servo_values_paced_sd_wof
         else:
             self.logger.info('Using function set_servo_values_paced_full_adjustment')
             return self.hhs.set_servo_values_paced_full_adjustment
