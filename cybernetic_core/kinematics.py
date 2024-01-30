@@ -153,6 +153,69 @@ class HHKinematics:
         self.body_movement(0, side_incline_when_moving, 0, False)
         self.add_angles_snapshot('endpoints')
 
+    # one-legged moves
+    def body_delta_xy(self, delta_y=0, delta_x=cfg.start.x_start):
+        # move body to center
+        avg_o_x, avg_o_y, avg_d_x, avg_d_y = 0, 0, 0, 0
+        for leg in self.legs.values():
+            avg_o_x += leg.O.x
+            avg_o_y += leg.O.y
+            avg_d_x += leg.C.x
+            avg_d_y += leg.C.y
+
+        avg_o_x /= 4
+        avg_o_y /= 4
+        avg_d_x /= 4
+        avg_d_y /= 4
+
+        return [round(avg_o_x - avg_d_x - delta_x, 2),
+                round(avg_o_y - avg_d_y - delta_y, 2)]
+
+    def body_to_center(self, delta_y=0, delta_x=cfg.start.x_start):
+        # move body to center
+        
+        body_delta_xy = self.body_delta_xy(delta_y, delta_x)
+        self.logger.info(f'Moving body: {body_delta_xy}')
+        self.body_movement(-body_delta_xy[0],
+                           -body_delta_xy[1],
+                           0)
+
+    def move_leg_endpoint(self, leg_num, leg_delta):        
+        self.legs[leg_num].move_end_point(*leg_delta)
+        self.add_angles_snapshot('endpoint')
+
+    def body_compensation_for_a_leg(self, leg_num, margin):
+        if leg_num in [1, 4]:
+            target_y = margin
+        else:
+            target_y = -margin
+
+        self.body_movement(0, target_y, 0)
+
+    def compensated_leg_movement(self, leg_num, leg_delta):
+        # moving body to compensate future movement
+        self.logger.info(f'Processing leg {leg_num} move_end_point {leg_delta}')
+        self.legs[leg_num].move_end_point(*leg_delta)
+        self.add_angles_snapshot('endpoint')
+
+    def leg_move_with_compensation(self, leg_num, delta_x, delta_y):
+        self.logger.info(f'Processing leg {leg_num} body_compensation_for_a_leg')
+        self.body_compensation_for_a_leg(leg_num, cfg.moves.margin)
+
+        self.compensated_leg_movement(leg_num, [0, 0, cfg.moves.leg_up[1]])
+        self.compensated_leg_movement(leg_num, [delta_x, delta_y, 0])
+        self.logger.info(f'Processing leg {leg_num} move_end_point {[0, 0, -cfg.moves.leg_up[1]]}')
+        self.move_leg_endpoint(leg_num, [0, 0, -cfg.moves.leg_up[1]])
+
+    def move_body_straight(self, delta_x, delta_y, leg_seq=[2, 4, 1, 3]):
+        self.body_movement(delta_x/2, delta_y/2, 0)
+        for leg_number in leg_seq:
+            self.logger.info(f'Processing leg {leg_number} with compensation')
+            self.leg_move_with_compensation(leg_number, delta_x, delta_y)
+        self.logger.info(f'Processing body to center')
+        self.body_to_center()
+        self.body_movement(delta_x/2, delta_y/2, 0)
+
     def move_forward_one_legged(self, legs_up_value, legs_forward_value):
         up_move = [legs_forward_value, 0, legs_up_value]
         down_move = [0, 0, -legs_up_value]

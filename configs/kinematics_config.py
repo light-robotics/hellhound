@@ -8,7 +8,7 @@ class start:
     vertical = 24 # new. walking: 21; old. walking: 17 # one-leg moves: 25
     x_start = -5 # walking21: -5 old. -6 forward: < 0
     front_x_delta = 8 # walking21: 4
-    incline = 0 # walking21: 2. > 0 legs outside
+    incline = 0 # two-legged 0, one-legged 2. > 0 legs outside
 
 class moves:
     up_down_cm = 2
@@ -20,3 +20,8 @@ class moves:
         1: 3,
         2: 4,
     }
+    margin = 6
+
+class speed:
+    forward_two_legged = 150
+    forward_one_legged = 400

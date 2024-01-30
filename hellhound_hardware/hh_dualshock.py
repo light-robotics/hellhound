@@ -7,6 +7,7 @@ from hardware.dualshock import DualShock
 from hellhound_hardware.neopixel_commands_setter import NeopixelCommandsSetter
 from run.commands_writer import CommandsWriter
 import configs.config as cfg
+import configs.kinematics_config as kcfg
 
 
 class HellHoundModes(Enum):
@@ -112,7 +113,10 @@ class HellHoundDualShock(DualShock):
         return 1000
 
     def on_L3_up(self, value):
-        pass
+        self.command_writer.write_command(
+            'forward_one_legged', 
+            kcfg.speed.forward_one_legged
+        )
     
     def on_L3_down(self, value):
         pass
@@ -127,13 +131,16 @@ class HellHoundDualShock(DualShock):
         pass
     
     def on_L3_y_at_rest(self):
-        pass
+        self.command_writer.write_command('none', 250)
 
     def on_L3_x_at_rest(self):
-        pass
+        self.command_writer.write_command('none', 250)
     
     def on_R3_up(self, value):
-        self.command_writer.write_command('forward_two_legged', 200)
+        self.command_writer.write_command(
+            'forward_two_legged', 
+            kcfg.speed.forward_two_legged
+        )
 
     def on_R3_down(self, value):
         pass

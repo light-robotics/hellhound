@@ -44,7 +44,7 @@ class VirtualHH(HHKinematics):
             self.move_2_legs_phased_13(0, -SIDE_MOVE_2LEG_CM)
             self.move_2_legs_phased_24(0, -SIDE_MOVE_2LEG_CM)
         elif command == 'forward_one_legged':
-            self.move_body_straight(FORWARD_LEGS_1LEG_CM, 0, [1, 4, 2, 3])
+            self.move_body_straight(FORWARD_LEGS_1LEG_CM, 0, [1, 3, 2, 4])
             #self.leg_move_with_compensation(2, 0, -FORWARD_LEGS_1LEG_CM)
             #self.leg_move_with_compensation(2, 0, FORWARD_LEGS_1LEG_CM)
             #self.body_to_center()
