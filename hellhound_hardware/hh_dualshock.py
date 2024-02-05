@@ -51,7 +51,7 @@ class HellHoundDualShock(DualShock):
         self.command_writer.write_command('none', 1000)
     
     def on_share_press(self):
-        pass
+        self.command_writer.write_command('legs_up_down', 500)
 
     def on_R1_press(self):
         if self.light_on:

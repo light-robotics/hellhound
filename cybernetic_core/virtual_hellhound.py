@@ -76,7 +76,7 @@ class VirtualHH(HHKinematics):
         elif command == 'down_6':
             self.body_movement(0, 0, -6)
         elif command == 'legs_up_down':
-            self.reposition_legs(0, 0)
+            self.test_leg_up(7)
         else:
             print(f'Unknown command')
         

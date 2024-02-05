@@ -339,18 +339,23 @@ class HHKinematics:
         #self.body_movement(-legs_forward_value/2, 0, 0)
 
     def test_leg_up(self, leg_up_value):
+        side_incline_when_moving = 2
         for leg_num in [1, 3]:
             self._leg_movement(leg_num, [0, 0, leg_up_value])
+        self.body_movement(0, side_incline_when_moving, 0, False)
         self.add_angles_snapshot('endpoint')
         for leg_num in [1, 3]:
             self._leg_movement(leg_num, [0, 0, -leg_up_value])
+        self.body_movement(0, -side_incline_when_moving, 0, False)
         self.add_angles_snapshot('endpoint')
         
         for leg_num in [2, 4]:
             self._leg_movement(leg_num, [0, 0, leg_up_value])
+        self.body_movement(0, -side_incline_when_moving, 0, False)
         self.add_angles_snapshot('endpoint')
         for leg_num in [2, 4]:
             self._leg_movement(leg_num, [0, 0, -leg_up_value])
+        self.body_movement(0, side_incline_when_moving, 0, False)
         self.add_angles_snapshot('endpoint')
 
     def test_leg_up_1(self, leg_up_value, move_body_side, move_body_forward):
