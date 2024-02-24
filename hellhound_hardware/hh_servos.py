@@ -54,10 +54,10 @@ def target_overshoot(current: float, target: float) -> float:
 
 class HellHoundServos:
     def __init__(self):
-        self.m1 = HTD45H(Port='/dev/ttyAMA0') # 5-8   # 1-4
-        self.m2 = HTD45H(Port='/dev/ttyAMA2') # 9-12  # 5-8
-        self.m3 = HTD45H(Port='/dev/ttyAMA3') # 13-16 # 9-12
-        self.m4 = HTD45H(Port='/dev/ttyAMA1') # 1-4   # 13-16
+        self.m1 = HTD45H(Port='/dev/ttyAMA3') # 5-8   # 1-4
+        self.m2 = HTD45H(Port='/dev/ttyAMA4') # 9-12  # 5-8
+        #self.m3 = HTD45H(Port='/dev/ttyAMA3') # 13-16 # 9-12
+        #self.m4 = HTD45H(Port='/dev/ttyAMA1') # 1-4   # 13-16
         self.speed = 500
         self.min_speed = 700
         self.max_speed = 0 # 130 # 0 is instant, 10000 is very slow
@@ -74,14 +74,10 @@ class HellHoundServos:
         self.servo_ids = [3, 4, 5, 9, 10, 11, 15, 16, 17, 21, 22, 23]
 
     def get_board_by_id(self, id: int) -> HTD45H:
-        if id in [9, 10, 11]:
+        if id in [3, 4, 5, 9, 10, 11]:
             return self.m1
-        if id in [15, 16, 17]:
+        if id in [15, 16, 17, 21, 22, 23]:
             return self.m2
-        if id in [21, 22, 23]:
-            return self.m3
-        if id in [3, 4, 5]:
-            return self.m4
 
     def get_current_angles(self) -> Dict[int, float]:
         current_angles = {}
@@ -99,7 +95,7 @@ class HellHoundServos:
 
     def print_status(self):
         j = 1
-        for m in [self.m1, self.m2, self.m3, self.m4]:
+        for m in [self.m1, self.m2]:
             for _ in range(6):
                 m.read_values(j)
                 j += 1

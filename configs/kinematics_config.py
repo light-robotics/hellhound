@@ -6,8 +6,8 @@ class leg:
 
 class start:
     vertical = 24 # new. walking: 21; old. walking: 17 # one-leg moves: 25
-    x_start = 0 # walking21: -5 old. -6 forward: < 0
-    front_x_delta = 0 # walking21: 4 actual: 8
+    x_start = -4 # walking21: -5 old. -6 forward: < 0
+    front_x_delta = 5 # walking21: 4 actual: 8
     incline = 0 # two-legged 0, one-legged 2. > 0 legs outside
 
 class moves:
@@ -18,7 +18,7 @@ class moves:
     side_move_2_leg_cm = 4
     leg_up = {
         1: 3,
-        2: 4,
+        2: 5,
     }
     margin = 6
 
